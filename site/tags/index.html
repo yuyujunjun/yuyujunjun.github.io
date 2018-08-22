@@ -85,7 +85,7 @@
 
 
 </head>
-<body class="home-template">
+<body class="page-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
@@ -145,7 +145,8 @@ into the {body} of the default.hbs template -->
 <link rel="stylesheet" href="/site/assets/built/tagscloud.css"  type="text/css" >
 </head>
 
-<main id="site-main" class="site-main outer" role="main">
+
+
 <ul class="tag-cloud">
 
   <li style="font-size: 120%">
@@ -187,7 +188,7 @@ into the {body} of the default.hbs template -->
   </div>
 
 </div>
-</main>
+
 
             </section>
 
@@ -281,6 +282,14 @@ $(function() {
 
 
     <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>
+
     
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->

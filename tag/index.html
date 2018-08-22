@@ -2,13 +2,15 @@
 layout: page
 current: tags
 permalink: /tags/
+class: page-template
 ---
 
 <head>
 <link rel="stylesheet" href="{{ site.baseurl }}assets/built/tagscloud.css"  type="text/css" >
 </head>
 
-<main id="site-main" class="site-main outer" role="main">
+
+
 <ul class="tag-cloud">
 {% for tag in site.tags %}
   <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
@@ -33,4 +35,4 @@ permalink: /tags/
   </div>
 {% endfor %}
 </div>
-</main>
+

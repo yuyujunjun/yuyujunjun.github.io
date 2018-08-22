@@ -115,8 +115,8 @@ function mouseL() {
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            this.page.url = '{{ site.url }}{{ site.baseurl }}';
-                            this.page.identifier = '{{ page.title }}{{page.date}}';
+                            this.page.url = '{{ site.url }}{{ site.baseurl }}{{page.url}}';
+                            this.page.identifier = '{{ page.id }}';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');

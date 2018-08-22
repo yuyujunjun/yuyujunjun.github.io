@@ -1,10 +1,10 @@
 ---
 layout: post
 current: post
-cover:  assets/images/welcome.jpg
+cover:  assets/images/20180110232157858.png
 navigation: True
 title: 视频镜头分割和关键帧提取
-date: 2018-2-20 00:00:05 +800
+date: 2018-2-21 00:00:05 +800
 tags: [OpenCV]
 class: post-template
 subclass: 'post tag-opencv'

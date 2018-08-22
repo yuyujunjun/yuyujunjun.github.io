@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/welcome.jpg
+cover:  assets/images/radiance.png
 navigation: True
 title: PBR学习
 date: 2018-2-20 00:00:00 +800

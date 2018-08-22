@@ -34,7 +34,7 @@
     <meta property="og:title" content="计算机图形学坐标变换" />
     <meta property="og:description" content="计算机图形学坐标变换 比例变换 沿坐标轴变换： 乘对应对角矩阵即可 沿任意坐标变换： 首先将其变换到标准坐标系中： 乘该坐标系的逆矩阵，如果是该坐标系正交，则其逆矩阵为其转置矩阵，如何求逆矩阵，详见我另一篇博客。 乘以对角矩阵施加变换 再乘以该坐标系变换回来 旋转变换 对于二维向量： &lt; x,y &gt;变成 &lt;-y,x&gt; 即可求出其旋转90度的向量，和原始向量构成一组基可求的与原始向量成任意角度的新向量。 对于三维向量： 矩阵方法：(假设向量皆为单位向量） 将原始向量P绕任意轴A旋转任意角度： 首先沿着该轴将向量分解为沿轴的分量Y和垂直轴的分量C，因为平行于轴的分量在旋转过程中不变，我们只用考虑垂直轴的分量C: 计算得到垂直A且包含C的平面，则可以在该平面内做二维旋转变换 将旋转后的向量加上Y即得到最后结果 四元数方法： 四元数介绍： $q=&lt;w,x,y,z&gt;=w + xi+yj+zk$ 或者 $q=s+\textbf{v}$ $\bar{q}=s-\textbf{v}$ $q_1q_2=s_1s_2-\textbf{$v_1$}\textbf{$v_2$}+s_1\textbf{$v_2$}+s_2\textbf{$v_1$}+\textbf{$v_1$}\textbf{$v_2$}$ 四元数旋转： 旋转相当于将原始的一个角经过一个函数变换，使之长度、角度、手相性不变。 长度不变： 角度不变： 手相性不变： 对于这样的F，我们有$F(P)=qPq^{-1}$，其中q为非零的四元数 $\textbf{note:}$ 任意标量a，乘以q，得到的 aq 和 q 执行的是相同的旋转操作。 最后结论：绕A轴进行旋转，相当于的上述函数运算。 平移操作 将点P从一个坐标系变换到另一个坐标系的表达式为： 具体操作： 将$P$扩充为$&lt;P_x,P_y,P_z,1&gt;$ 实际应用中： 平移变换中，表示点的向量将会发生变化，但是表示方向的向量不变。" />
     <meta property="og:url" content="http://localhost:4000/site/Trans" />
-    <meta property="og:image" content="http://localhost:4000/site/assets/images/welcome.jpg" />
+    <meta property="og:image" content="http://localhost:4000/site/assets/images/7943693-9a00f51bdf10d299.png" />
     <meta property="article:publisher" content="https://www.facebook.com/yunuohanxue" />
     <meta property="article:author" content="https://www.facebook.com/yunuohanxue" />
     <meta property="article:published_time" content="2018-02-20T00:00:09+08:00" />
@@ -44,7 +44,7 @@
     <meta name="twitter:title" content="计算机图形学坐标变换" />
     <meta name="twitter:description" content="计算机图形学坐标变换 比例变换 沿坐标轴变换： 乘对应对角矩阵即可 沿任意坐标变换： 首先将其变换到标准坐标系中： 乘该坐标系的逆矩阵，如果是该坐标系正交，则其逆矩阵为其转置矩阵，如何求逆矩阵，详见我另一篇博客。 乘以对角矩阵施加变换 再乘以该坐标系变换回来 旋转变换 对于二维向量： &lt; x,y &gt;变成 &lt;-y,x&gt; 即可求出其旋转90度的向量，和原始向量构成一组基可求的与原始向量成任意角度的新向量。 对于三维向量： 矩阵方法：(假设向量皆为单位向量） 将原始向量P绕任意轴A旋转任意角度： 首先沿着该轴将向量分解为沿轴的分量Y和垂直轴的分量C，因为平行于轴的分量在旋转过程中不变，我们只用考虑垂直轴的分量C: 计算得到垂直A且包含C的平面，则可以在该平面内做二维旋转变换 将旋转后的向量加上Y即得到最后结果 四元数方法： 四元数介绍： $q=&lt;w,x,y,z&gt;=w + xi+yj+zk$ 或者 $q=s+\textbf{v}$ $\bar{q}=s-\textbf{v}$ $q_1q_2=s_1s_2-\textbf{$v_1$}\textbf{$v_2$}+s_1\textbf{$v_2$}+s_2\textbf{$v_1$}+\textbf{$v_1$}\textbf{$v_2$}$ 四元数旋转： 旋转相当于将原始的一个角经过一个函数变换，使之长度、角度、手相性不变。 长度不变： 角度不变： 手相性不变： 对于这样的F，我们有$F(P)=qPq^{-1}$，其中q为非零的四元数 $\textbf{note:}$ 任意标量a，乘以q，得到的 aq 和 q 执行的是相同的旋转操作。 最后结论：绕A轴进行旋转，相当于的上述函数运算。 平移操作 将点P从一个坐标系变换到另一个坐标系的表达式为： 具体操作： 将$P$扩充为$&lt;P_x,P_y,P_z,1&gt;$ 实际应用中： 平移变换中，表示点的向量将会发生变化，但是表示方向的向量不变。" />
     <meta name="twitter:url" content="http://localhost:4000/site/" />
-    <meta name="twitter:image" content="http://localhost:4000/site/assets/images/welcome.jpg" />
+    <meta name="twitter:image" content="http://localhost:4000/site/assets/images/7943693-9a00f51bdf10d299.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="雨诺韩雪 | 博客杂想收容之处" />
     <meta name="twitter:label2" content="Filed under" />
@@ -66,7 +66,7 @@
     "url": "http://localhost:4000/site/Trans",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/site/assets/images/welcome.jpg",
+        "url": "http://localhost:4000/site/assets/images/7943693-9a00f51bdf10d299.png",
         "width": 2000,
         "height": 666
     },
@@ -182,7 +182,7 @@ function mouseL() {
             </header>
 
             
-            <figure class="post-full-image" style="background-image: url(/site/assets/images/welcome.jpg)">
+            <figure class="post-full-image" style="background-image: url(/site/assets/images/7943693-9a00f51bdf10d299.png)">
             </figure>
             
 
@@ -366,6 +366,8 @@ $(GN)\cdot (MT)=(GN)^T(MT)=N^TG^TMT=0$
                                   
                                 
                                   
+                                
+                                  
                                     
                                         
                                         
@@ -376,8 +378,6 @@ $(GN)\cdot (MT)=(GN)^T(MT)=N^TG^TMT=0$
                                 
                                   
                                     
-                                  
-                                
                                   
                                 
                                   
@@ -485,25 +485,25 @@ $(GN)\cdot (MT)=(GN)^T(MT)=N^TG^TMT=0$
                 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/site/segmentation-keyframe-extraction">
-                <div class="post-card-image" style="background-image: url(/site/assets/images/welcome.jpg)"></div>
+            <a class="post-card-image-link" href="/site/HermiteBase">
+                <div class="post-card-image" style="background-image: url(/site/assets/images/20180110235443772.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/site/segmentation-keyframe-extraction">
+            <a class="post-card-content-link" href="/site/HermiteBase">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Opencv</span>
+                                <span class="post-card-tags">Graphics and games</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">视频镜头分割和关键帧提取</h2>
+                    <h2 class="post-card-title">Hermite曲线基函数探究</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>[TOC] 1. Project Introduction (1) 选题 视频镜头边缘检测与镜头内关键帧提取 (2) 工作简介 视频逐帧进行直方图绘制并按照$X^2$做差 根据当前帧所处环境进行自适应阈值防缩得到镜头边缘帧 优化镜头边缘帧 进行自适应关键帧提取 (3) 开发环境 c++ opencv3.3.1 2. Technical Detailss (1) 理论知识 边缘检测 基于直方图差异进行边缘检测，差异越大的帧越有可能是镜头边界处，且使用直方图的方法可以很好的避免镜头内对象运动而造成的差异，提高一定鲁棒性。同时算法应该兼顾几个方面的问题。 相邻两个镜头边缘不应该太靠近 镜头边缘帧与前一帧的差值应该是当前镜头所有帧差值中最大的 镜头边缘帧与前一帧的差值应该普遍大于该镜头中所有帧的平均差值的倍数 下一个镜头中，靠近这个镜头的部分的两帧之间的差值不应该出现明显大于这个镜头边缘帧与前一帧的差值的情况 关键帧提取 动态进行关键帧提取，不应该根据当前镜头的长短而应该根据当前镜头的变化剧烈程度，当前镜头变化越剧烈，则应该提取越多的关键帧，即便当前镜头并不长。相反，即便是一段很长的镜头，如果画面基本没变，我们也应该提取较少的关键帧。 如果当前镜头画面为全黑，我们不应该提取任何关键帧。 (2) 具体算法</p>
+                    <p>hermite曲线的变化是受四个基函数控制的，相当于四个基函数的加权后累加。 我记得我曾经说过四个基函数会让我们的曲线有很好的性质： 从空间的角度思考：四个基函数均不平行，便构成一个四维空间，可以唯一确定四维空间的一条曲线。当我们提供了点的坐标和切向量，相当于改变了四维空间的基。或者说我们对原始基进行了缩放平移之类的操作，改变后的四维空间有很好的性质： 当前三个值取0，最后一个坐标取1时，得到的点在三维空间的投影恰好等于我们的第一个点。 当四个坐标都取1的时候，得到的点在三维空间的投影恰好等于我们给的第二个点。 当前三个点按三次方，二次方，一次放赋值的时候，所得到的点在三维空间的点在我们给的两个点之间，且连成的曲线是平滑的。 ##现在先来尝试解释一下为什么有这样的性质： ###前两个基函数： $h1(u)=2u^3-3u^2+1$ $h2(u)=-2u^3+3u^2$ 四维空间的这两个基的变化是由两个关键点决定的，与切向量没有关系(这是运算过程决定的)。我们先来看一下这两个函数式的特殊之处： $h1(u)+h2(u)=1$ 不管u如何变化，这个等式都成立。 所以这个等式只是两个关键点进行了加权平均，$h1(u)$代表第一个关键点对这条曲线的影响，$h2(u)$代表第二个关键点对这条曲线的影响，第一个关键点对这条曲线影响越大，那么曲线就和第一个关键点越接近。 于是我们不难得出（假装数学很好），关键点对曲线的影响，只是让曲线从这头到了那头，中间隔着长长的插值点，但它还是一条直线 所以现在的你也可以构造出一个基函数了嘛： $h1(u)=u$ $h2(u)=1-u​$ 是不是很容易？ 这就是你对它的方案魔改之后的曲线 对于相同的切向量，原始基函数画出来的曲线长这样： 证明你构建的曲线还是很成功的，但是你构建出的曲线有一个问题： 为了让你更明确的意识到你的错误（哦不我的错误），我们将hermite曲线的后两个基函数直接抹去，如前面所述，这时候它就是直线了。 标准hermite基和你构建的伪hermite基的区别在于，你的u的变化是线性的，也就是说，随着u变化，你的插值点的距离是相同的（假设不考虑另外两个基函数的影响） 如下是一个标准hermite的曲线的插值变化: ###后两个基函数 我们说完了hermite的前两个基，我们现在来解释一下后两个基，说实话这时候就暴露出我的数学能力了，所以我并不打算从数学的方案严格计算，我们来点直观上的分析，先来两张基函数的图： 如上文所述，没有这两个基函数，我们只获得了hermite直线，这两个hermite基函数的意义便在于让直线产生偏移，通俗讲，将直线根据u的变化不同程度的掰弯。 ####这两个函数有什么性质？ 首先我们看第一个函数，它在靠近0的位置更大，而第二个函数在靠近1的位置更大。 我们已经知道u逼近0的时候曲线靠近第一个关键点，u逼近1的时候曲线靠近第二个关键点，也就是说 最终的曲线在靠近第一个关键点的位置，会更接近第一个基函数加权的量，最终的曲线在靠近第二个关键点的位置，会更接近影响第二个基函数的值。 我们来做个实验，我们让（-1000，-1000）来影响第一个基函数，让（+1000，+1000）来影响第二个基函数（为什么要用1000？做实验嘛，大气一点咯）另外注意qt的坐标轴位置，我们经过换算让左下角表示（0，0）</p>
                 </section>
             </a>
             <footer class="post-card-meta">

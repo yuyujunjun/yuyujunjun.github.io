@@ -88,7 +88,7 @@ $h2(u)=1-u​$
 好的估计切向量的方法我们都会了，文章完。
 " />
     <meta property="og:url" content="http://localhost:4000/site/HermiteBase" />
-    <meta property="og:image" content="http://localhost:4000/site/assets/images/welcome.jpg" />
+    <meta property="og:image" content="http://localhost:4000/site/assets/images/20180110235443772.png" />
     <meta property="article:publisher" content="https://www.facebook.com/yunuohanxue" />
     <meta property="article:author" content="https://www.facebook.com/yunuohanxue" />
     <meta property="article:published_time" content="2018-02-20T00:00:04+08:00" />
@@ -152,7 +152,7 @@ $h2(u)=1-u​$
 好的估计切向量的方法我们都会了，文章完。
 " />
     <meta name="twitter:url" content="http://localhost:4000/site/" />
-    <meta name="twitter:image" content="http://localhost:4000/site/assets/images/welcome.jpg" />
+    <meta name="twitter:image" content="http://localhost:4000/site/assets/images/20180110235443772.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="雨诺韩雪 | 博客杂想收容之处" />
     <meta name="twitter:label2" content="Filed under" />
@@ -174,7 +174,7 @@ $h2(u)=1-u​$
     "url": "http://localhost:4000/site/HermiteBase",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/site/assets/images/welcome.jpg",
+        "url": "http://localhost:4000/site/assets/images/20180110235443772.png",
         "width": 2000,
         "height": 666
     },
@@ -344,7 +344,7 @@ function mouseL() {
             </header>
 
             
-            <figure class="post-full-image" style="background-image: url(/site/assets/images/welcome.jpg)">
+            <figure class="post-full-image" style="background-image: url(/site/assets/images/20180110235443772.png)">
             </figure>
             
 
@@ -502,6 +502,8 @@ $h2(u)=1-u​$
                                   
                                 
                                   
+                                
+                                  
                                     
                                         
                                         
@@ -517,8 +519,6 @@ $h2(u)=1-u​$
                                             <li><a href="/site/Trans">计算机图形学坐标变换</a></li>
                                         
                                     
-                                  
-                                
                                   
                                 
                                   
@@ -566,25 +566,25 @@ $h2(u)=1-u​$
                 
     <article class="post-card post-template">
         
-            <a class="post-card-image-link" href="/site/segmentation-keyframe-extraction">
-                <div class="post-card-image" style="background-image: url(/site/assets/images/welcome.jpg)"></div>
+            <a class="post-card-image-link" href="/site/Trans">
+                <div class="post-card-image" style="background-image: url(/site/assets/images/7943693-9a00f51bdf10d299.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/site/segmentation-keyframe-extraction">
+            <a class="post-card-content-link" href="/site/Trans">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Opencv</span>
+                                <span class="post-card-tags">Graphics and games</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">视频镜头分割和关键帧提取</h2>
+                    <h2 class="post-card-title">计算机图形学坐标变换</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>[TOC] ## 1. Project Introduction ### (1) 选题 视频镜头边缘检测与镜头内关键帧提取 ### (2) 工作简介 视频逐帧进行直方图绘制并按照$X^2$做差 根据当前帧所处环境进行自适应阈值防缩得到镜头边缘帧 优化镜头边缘帧 进行自适应关键帧提取 ### (3) 开发环境 c++ opencv3.3.1 ## 2. Technical Detailss ### (1) 理论知识 #### 边缘检测 基于直方图差异进行边缘检测，差异越大的帧越有可能是镜头边界处，且使用直方图的方法可以很好的避免镜头内对象运动而造成的差异，提高一定鲁棒性。同时算法应该兼顾几个方面的问题。 + 相邻两个镜头边缘不应该太靠近</p>
+                    <p># 计算机图形学坐标变换 --- ## 比例变换 ### 沿坐标轴变换： 乘对应对角矩阵即可 ### 沿任意坐标变换： * 首先将其变换到标准坐标系中： 乘该坐标系的逆矩阵，如果是该坐标系正交，则其逆矩阵为其转置矩阵，如何求逆矩阵，详见我另一篇博客。 * 乘以对角矩阵施加变换 * 再乘以该坐标系变换回来 ## 旋转变换 ### 对于二维向量： 变成 即可求出其旋转90度的向量，和原始向量构成一组基可求的与原始向量成任意角度的新向量。 ### 对于三维向量： #### 矩阵方法：(假设向量皆为单位向量） 将原始向量P绕任意轴A旋转任意角度： 1. 首先沿着该轴将向量分解为沿轴的分量Y和垂直轴的分量C，因为平行于轴的分量在旋转过程中不变，我们只用考虑垂直轴的分量C: $$Y:（A \cdot P）A</p>
                 </section>
             </a>
             <footer class="post-card-meta">
@@ -619,11 +619,7 @@ $h2(u)=1-u​$
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             
                 
-    <article class="post-card post-template">
-        
-            <a class="post-card-image-link" href="/site/BezierCurve">
-                <div class="post-card-image" style="background-image: url(/site/assets/images/welcome.jpg)"></div>
-            </a>
+    <article class="post-card post-template no-image">
         
         <div class="post-card-content">
             <a class="post-card-content-link" href="/site/BezierCurve">

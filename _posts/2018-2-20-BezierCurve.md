@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/welcome.jpg
+cover:  false
 navigation: True
 title: 贝塞尔曲线的性质
 date: 2018-2-20 00:00:03 +800

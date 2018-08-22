@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/welcome.jpg
+cover:  assets/images/20180110235443772.png
 navigation: True
 title: Hermite曲线基函数探究
 date: 2018-2-20 00:00:04 +800

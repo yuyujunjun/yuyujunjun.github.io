@@ -13,6 +13,7 @@ into the {body} of the default.hbs template -->
 <header class="site-header outer">
     <div class="inner">
         {% include site-nav.html %}
+
     </div>
 </header>
 
@@ -37,8 +38,26 @@ into the {body} of the default.hbs template -->
                             {% endif %}
                         {% endfor %}
                     {% endif %}
+
                 </section>
                 <h1 class="post-full-title">{{ page.title }}</h1>
+                 <span style="float:right;margin-top: -5px"id="busuanzi_container_page_pv" onmouseenter="mouseE()" onmouseleave="mouseL()"><span id="eyeclose" >{% include eyeclose.html %}</span><span id="eyeopen" style="display: none">{% include eyeopen.html %}  <span id="busuanzi_value_page_pv"></span>次</span>
+  
+</span>
+<script type="text/javascript">
+function mouseE() {
+
+    document.getElementById("eyeclose").style.display="none"; 
+    document.getElementById("eyeopen").style.display="inline";
+}
+
+function mouseL() {
+
+    document.getElementById("eyeclose").style.display="inline"; 
+    document.getElementById("eyeopen").style.display="none"; 
+
+}
+</script>
             </header>
 
             {% if page.cover %}

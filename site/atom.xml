@@ -24,18 +24,120 @@
     
       
       <item>
-        <title>占坑</title>
+        <title>PRT learning</title>
         
-          <description>&lt;h1 id=&quot;占坑&quot;&gt;占坑&lt;/h1&gt;
-&lt;p&gt;这将会是一个比较重要的tag，所以可以使用导航栏便捷访问。先放一篇文章来占坑。
-我真的会更新吗？
-不可能的。&lt;/p&gt;
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;https://zhuanlan.zhihu.com/p/35520910&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
         
-        <pubDate>Wed, 22 Aug 2018 01:10:00 +0800</pubDate>
+        <pubDate>Wed, 21 Feb 2018 00:00:00 +0800</pubDate>
         <link>
-        http://localhost:4000/zhankeng</link>
-        <guid isPermaLink="true">http://localhost:4000/zhankeng</guid>
+        http://localhost:4000/PRT-learning</link>
+        <guid isPermaLink="true">http://localhost:4000/PRT-learning</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>计算机图形学坐标变换</title>
+        
+          <description>&lt;h1 id=&quot;计算机图形学坐标变换&quot;&gt;计算机图形学坐标变换&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Feb 2018 00:00:09 +0800</pubDate>
+        <link>
+        http://localhost:4000/Trans</link>
+        <guid isPermaLink="true">http://localhost:4000/Trans</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>视频镜头分割和关键帧提取</title>
+        
+          <description>&lt;p&gt;[TOC]&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Feb 2018 00:00:05 +0800</pubDate>
+        <link>
+        http://localhost:4000/segmentation-keyframe-extraction</link>
+        <guid isPermaLink="true">http://localhost:4000/segmentation-keyframe-extraction</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Hermite曲线基函数探究</title>
+        
+          <description>&lt;p&gt;hermite曲线的变化是受四个基函数控制的，相当于四个基函数的加权后累加。
+我记得我曾经说过四个基函数会让我们的曲线有很好的性质：&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Feb 2018 00:00:04 +0800</pubDate>
+        <link>
+        http://localhost:4000/HermiteBase</link>
+        <guid isPermaLink="true">http://localhost:4000/HermiteBase</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>贝塞尔曲线的性质</title>
+        
+          <description>&lt;h4 id=&quot;贝塞尔曲线的性质&quot;&gt;贝塞尔曲线的性质&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;与Hermite曲线通过始末两点和亮点的方向来绘制曲线不同，贝塞尔样条曲线是通过多个关键控制点构成曲线，曲线有如下良好的性质，这些性质决定了FFD最终使用贝塞尔样条曲线而非Hermite曲线。
+    &lt;blockquote&gt;
+      &lt;ol&gt;
+        &lt;li&gt;对于给定关键点的贝塞尔曲线，曲线穿过最开始和最后的关键点&lt;/li&gt;
+        &lt;li&gt;曲线的大致趋势与关键点相契合&lt;/li&gt;
+        &lt;li&gt;曲线在关键点的包围之中，不会伸出到关键点以外&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Feb 2018 00:00:03 +0800</pubDate>
+        <link>
+        http://localhost:4000/BezierCurve</link>
+        <guid isPermaLink="true">http://localhost:4000/BezierCurve</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>PBR学习续</title>
+        
+          <description>&lt;p&gt;解决上一篇中的问题
+##辐射率：&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Feb 2018 00:00:01 +0800</pubDate>
+        <link>
+        http://localhost:4000/PBRlearning2</link>
+        <guid isPermaLink="true">http://localhost:4000/PBRlearning2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>PBR学习</title>
+        
+          <description>&lt;h1 id=&quot;pbr学习&quot;&gt;PBR学习&lt;/h1&gt;
+
+</description>
+        
+        <pubDate>Tue, 20 Feb 2018 00:00:00 +0800</pubDate>
+        <link>
+        http://localhost:4000/PBRLearning</link>
+        <guid isPermaLink="true">http://localhost:4000/PBRLearning</guid>
       </item>
       
     

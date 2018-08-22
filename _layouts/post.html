@@ -3,6 +3,7 @@ layout: default
 current: post
 class: post-template
 disqus: false
+
 ---
 
 <!-- default -->
@@ -115,7 +116,7 @@ function mouseL() {
                     <script>
                         var disqus_config = function () {
                             this.page.url = '{{ site.url }}{{ site.baseurl }}';
-                            this.page.identifier = '{{ site.title }}';
+                            this.page.identifier = '{{ page.title }}{{page.date}}';
                         };
                         (function() {
                             var d = document, s = d.createElement('script');

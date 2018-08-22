@@ -14,7 +14,11 @@ getting-started:
   name: getting-started
   description: False
   cover: False
-Graphics-and-Games:
-  name: Graphics
+Graphics and Game Engine:
+  name: graphics-and-games
   description: Some blogs about learning of Graphics and Game Engine
+  cover: assets/images/blackangel.jpg
+杂想:
+  name: thinking
+  description: 一些奇思妙想和生活趣事（对我来说）
   cover: False

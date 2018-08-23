@@ -1,0 +1,38 @@
+---
+layout: page
+current: tags
+permalink: /tag/
+class: page-template
+navigation: true
+---
+
+<head>
+<link rel="stylesheet" href="/{{ site.baseurl }}assets/built/tagscloud.css"  type="text/css" >
+</head>
+
+
+
+<ul class="tag-cloud">
+{% for tag in site.tags %}
+  <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+    <a href='/{{ site.baseurl }}tag/{{ tag | first |  downcase | replace: ' ', '-' }}/'>
+      {{ tag | first }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
+<div id="archives">
+{% for tag in site.tags %}
+  <div class="archive-group">
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <h3 id="#{{ tag_name | downcase | replace: ' ', '-' }}">
+    <a name="{{ tag_name | downcase | replace: ' ', '-' }}" href='/{{ site.baseurl }}tag/{{ tag | first |  downcase | replace: ' ', '-' }}/'>{{ tag_name }}</a></h3>
+    {% for post in site.tags[tag_name] %}
+    <article class="archive-item">
+      <h4><a href="/{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>

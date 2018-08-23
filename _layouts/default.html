@@ -48,9 +48,12 @@
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
                 <section class="copyright"><a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a> &copy; {{  site.time | date: '%Y' }}</section>
+                {% if page.class != 'post-template' %}
                  <span id="busuanzi_container_site_pv">
-    你是第<span id="busuanzi_value_site_pv"></span>个来看我的小伙伴哟
+                
+    你是第<span id="busuanzi_value_page_pv"></span>个看到这个页面的小伙伴哦
 </span>
+{% endif %}
                 <!-- <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section> -->

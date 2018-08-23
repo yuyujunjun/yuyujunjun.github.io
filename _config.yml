@@ -8,7 +8,7 @@ language: 'zh-CN'
 #baseurl: ''
 #relative_url: /
 # Website info
-title: 雨诺韩雪 | 博客杂想收容之处
+title: 雨诺寒雪 | 博客杂想收容之处
 description: 杂想恣肆生长
 cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
@@ -33,7 +33,7 @@ disqus: True
 disqus_shortname: yuyujunjun # replace with your disqus username
 
 # Google Analytics
-#google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-124530327-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title

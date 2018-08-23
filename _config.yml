@@ -78,7 +78,7 @@ production_url:  https://yuyujunjun.github.io/
 url:  https://yuyujunjun.github.io/
 
 exclude:
-  - assets/css
+  #- assets/css
   - node_modules
   - vendor
   - .travis.yml

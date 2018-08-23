@@ -219,6 +219,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 168)
   jekyll (~> 3.6.2)
+  jekyll-sitemap
   rake (~> 12.3.0)
   tzinfo (= 1.2.5)
   tzinfo-data (= 1.2018.5)

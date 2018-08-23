@@ -5,7 +5,7 @@ paginate: 100 # it will paginate after this number
 language: 'zh-CN'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: '/'
 
 # Website info
 title: 雨诺韩雪 | 博客杂想收容之处
@@ -78,7 +78,7 @@ production_url:  https://yuyujunjun.github.io/
 url:  https://yuyujunjun.github.io/
 
 exclude:
-  #- assets/css
+  - assets/css
   - node_modules
   - vendor
   - .travis.yml

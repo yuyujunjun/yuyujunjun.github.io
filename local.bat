@@ -1,3 +1,3 @@
-mv ../tags ./tags
-rm -rf  ./author  ./tag sitemap.xml
+move ../tags ./tags
+del  author  tag sitemap.xml
 bundle exec jekyll serve

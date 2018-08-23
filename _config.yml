@@ -6,7 +6,7 @@ language: 'zh-CN'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: ""
-
+relative_url: /
 # Website info
 title: 雨诺韩雪 | 博客杂想收容之处
 description: 杂想恣肆生长

@@ -69,6 +69,10 @@
 <lastmod>2018-08-25T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/Unity-Tips</loc>
+<lastmod>2018-08-25T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -81,7 +85,13 @@
 <loc>http://localhost:4000/tag/illusion/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tag/graphics-and-games/</loc>
+<loc>http://localhost:4000/tag/graphics/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/rendering/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/animation/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/tag/opencv/</loc>
@@ -97,6 +107,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/tag/mesh/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tag/unity-tips/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/author/yuyujunjun/</loc>

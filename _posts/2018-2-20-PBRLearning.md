@@ -5,7 +5,7 @@ cover:  assets/images/radiance.png
 navigation: True
 title: PBR学习
 date: 2018-2-20 00:00:00 +800
-tags: [Graphics and Games]
+tags: [Graphics,Rendering]
 class: post-template
 subclass: 'post tag-Graphics-and-Games'
 author: yuyujunjun

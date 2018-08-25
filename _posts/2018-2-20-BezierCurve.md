@@ -5,7 +5,7 @@ cover:  false
 navigation: True
 title: 贝塞尔曲线的性质
 date: 2018-2-20 00:00:03 +800
-tags: [Graphics and Games]
+tags: [Graphics,Animation]
 class: post-template
 subclass: 'post tag-Graphics-and-Games'
 author: yuyujunjun

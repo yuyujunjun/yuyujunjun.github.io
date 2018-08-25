@@ -5,7 +5,7 @@ cover:  false
 navigation: True
 title: PBR学习续
 date: 2018-2-20 00:00:01 +800
-tags: [Graphics and Games]
+tags: [Graphics,Rendering]
 class: post-template
 subclass: 'post tag-Graphics-and-Games'
 author: yuyujunjun

@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/tags.jpg
+cover:  assets/images/Outline/1.gif
 navigation: True
 title: Outline based on Image Space
 date: 2018-8-31 00:00:00 +800

@@ -147,6 +147,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - assets
 keep_files:
   - .git
   - .svn
@@ -267,6 +268,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-include-cache
+  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate

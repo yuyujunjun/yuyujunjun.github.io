@@ -4,7 +4,8 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-
+remote_theme: "mmistakes/minimal-mistakes"
+minimal-minimal_mistakes_skin: "air"
 # Site Settings
 locale                   : "zh-CN"
 title                    : "Home"
@@ -266,7 +267,6 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-include-cache
-  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -274,6 +274,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 
 # Archives
@@ -304,8 +305,7 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-remote_theme: "mmistakes/minimal-mistakes"
-minimal-mistakes-skin: "air"
+
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:

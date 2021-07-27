@@ -303,7 +303,7 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal-mistakes-skin: "air"
 # HTML Compression
 # - http://jch.penibelst.de/

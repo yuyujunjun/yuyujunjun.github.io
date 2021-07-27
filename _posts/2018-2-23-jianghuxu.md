@@ -1,6 +1,5 @@
 ---
 title: 给，你要的江湖
-layout: post
 tags: [illusion]
 navigation: True
 author: yuyujunjun

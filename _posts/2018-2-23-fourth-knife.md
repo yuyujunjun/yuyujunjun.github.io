@@ -1,6 +1,5 @@
 ---
 title: 第四把刀叫爱情
-layout: post
 tags: [illusion]
 navigation: True
 author: yuyujunjun

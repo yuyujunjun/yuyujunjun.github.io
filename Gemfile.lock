@@ -231,6 +231,7 @@ DEPENDENCIES
   hawkins
   jekyll-feed
   jekyll-include-cache
+  jekyll-remote-theme
   jekyll-sitemap
   minimal-mistakes-jekyll
   wdm (~> 0.1.0)

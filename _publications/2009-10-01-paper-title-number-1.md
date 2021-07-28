@@ -20,5 +20,3 @@ We present SDFDDGI, a novel approach to compute dynamic diffuse global illuminat
 
 
 [Download paper here](https://yuyujunjun.github.io/files/paper1.pdf)
-
-Recommended citation: Hu, J., Yip, M.K., Alonso, G.E. et al. Efficient real-time dynamic diffuse global illumination using signed distance fields. Vis Comput (2021). https://doi.org/10.1007/s00371-021-02197-0

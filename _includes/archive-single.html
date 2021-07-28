@@ -53,7 +53,7 @@
     {% endif %}
     
        
-    {% if post.url %}<a href="{{ post.url }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a>{% endif %}
+    {% if post.oriurl %}<a href="{{ post.oriurl }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a>{% endif %}
     {% if post.paperurl %}<a href="{{ post.paperurl }}" class="btn">Download</a>{% endif %}
      
 

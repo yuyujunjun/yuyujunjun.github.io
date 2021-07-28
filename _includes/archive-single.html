@@ -55,7 +55,7 @@
        
     {% if post.oriurl %}<a href="{{ post.oriurl }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a>{% endif %}
     {% if post.paperurl %}<a href="{{ post.paperurl }}" class="btn">Download</a>{% endif %}
-     
+    {% if page.videourl %}<a href="{{ page.videourl }}" class="btn">Video</a>{% endif %}
 
   </article>
 </div>

@@ -54,6 +54,7 @@ layout: default
         <div>
         	{% if page.oriurl %}<a href="{{ page.oriurl }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a>{% endif %}
         	{% if page.paperurl %}<a href="{{ page.paperurl }}" class="btn">Download</a>{% endif %}
+        	{% if page.videourl %}<a href="{{ page.videourl }}" class="btn">Video</a>{% endif %}
         </div>
         {% if page.citation%}
           <p><blockquote>{{ page.citation }}</blockquote> </p>

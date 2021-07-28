@@ -3,9 +3,10 @@ title: "Efficient real-time dynamic diffuse global illumination using signed dis
 collection: publications
 permalink: /publication/Efficient-real-time-dynamic-diffuse-global-illumination-using-signed-distance-fields
 date: 2021-06-02
-venue: 'Journal 1'
+venue: 'The Visual Computing'
+link: https://doi.org/10.1007/s00371-021-02197-0
 paperurl: 'https://yuyujunjun.github.io/files/sdfGI.pdf'
-citation: Hu, J., Yip, M.K., Alonso, G.E. et al. Efficient real-time dynamic diffuse global illumination using signed distance fields. Vis Comput (2021). https://doi.org/10.1007/s00371-021-02197-0
+citation: Hu, J., Yip, M.K., Alonso, G.E. et al. Efficient real-time dynamic diffuse global illumination using signed distance fields. Vis Comput (2021). 
 ---
 Jinkai Hu, Milo K. Yip, Guillermo Elias Alonso, Shihao Gu, **Xiangjun Tang** & Xiaogang Jin
 

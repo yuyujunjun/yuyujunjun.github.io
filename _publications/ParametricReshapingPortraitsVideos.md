@@ -8,7 +8,7 @@ citation: Xiangjun Tang, Wenxin Sun, Yong-Liang Yang, and Xiaogang Jin. 2021. Pa
 ---
 
 
- **Xiangjun Tang**, Wenxin Sun, Yong-Liang Yang, and Xiaogang Jin.
+ Xiangjun Tang, Wenxin Sun, Yong-Liang Yang, and Xiaogang Jin.
 
 
 

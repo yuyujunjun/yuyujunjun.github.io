@@ -1,5 +1,5 @@
 ---
-title: "DeepShapelyPortrait"
+title: "Deep Shapely Portrait"
 collection: publications
 date: 2020-10-12
 venue: "ACM International Conference on Multimedia" 

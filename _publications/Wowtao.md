@@ -3,7 +3,7 @@ title: "Wowtao: A Personalized Pottery-making System"
 collection: publications
 date: 2020-11-13
 venue: "Computers in Industry" 
-citation: Wowtao: A Personalized Pottery-making System. Ruifan Cai, Yingying Lin, Honglin Li, Yuzhen Zhu, Xiangjun Tang, Yanjun Weng, Lihua You, Xiaogang Jin. Computers in Industry, 2021, 124: 103325.
+citation: Cai R, Lin Y, Li H, et al. Wowtao: A personalized pottery-making system[J]. Computers in Industry, 2021, 124: 103325.
 
 ---
 Ruifan Cai, Yingying Lin, Honglin Li, Yuzhen Zhu, **Xiangjun Tang**, Yanjun Weng, Lihua You, Xiaogang Jin

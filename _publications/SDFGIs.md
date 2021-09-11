@@ -1,7 +1,6 @@
 ---
 title: "Efficient Real-time Dynamic Diffuse Global Illumination Using Signed Distance Fields"
 collection: publications
-permalink: /publication/Efficient-real-time-dynamic-diffuse-global-illumination-using-signed-distance-fields
 date: 2021-06-02
 venue: 'The Visual Computing'
 oriurl: https://doi.org/10.1007/s00371-021-02197-0

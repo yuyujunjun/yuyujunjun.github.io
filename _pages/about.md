@@ -11,7 +11,13 @@ redirect_from:
 About Me
 ======
 
-To Do.
+I am a PhD student @ State Key Lab of CAD&CG, Zhejiang University, advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).
+
+**Research Interest:** Virtual Reality, Character Animation, Artificial Intelligence, Portrait Editing.
+
+**Address:** Zijingang Campus of Zhejiang University, 866 Yuhangtang Rd, Hangzhou 310058, P.R. China.
+
+**Contact:** fcsx1tf@163.com
 
 Publications
 ======

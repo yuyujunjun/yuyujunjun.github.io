@@ -7,8 +7,9 @@ venue: "ACM International Conference on Multimedia"
 citation: Xiangjun Tang, Wenxin Sun, Yong-Liang Yang, and Xiaogang Jin. 2021. Parametric Reshaping of Portraits in Videos. In Proceedings of the 29th ACM International Conference on Multimedia (MM ’21), October 20–24, 2021, Virtual Event, China. ACM, New York, NY, USA, 9 pages.
 ---
 
+**Oral** 
 
- **Xiangjun Tang**, Wenxin Sun, Yong-Liang Yang, and Xiaogang Jin.
+**Xiangjun Tang**, Wenxin Sun, Yong-Liang Yang, and Xiaogang Jin.
 
 
 

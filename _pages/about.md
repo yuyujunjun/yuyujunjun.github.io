@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Homepage"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-About Me
-======
+
 
 I am a PhD student @ State Key Lab of CAD&CG, Zhejiang University, advised by Prof. [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).
 

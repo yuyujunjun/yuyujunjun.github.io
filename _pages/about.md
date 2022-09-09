@@ -16,7 +16,7 @@ I am a PhD student @ State Key Lab of CAD&CG, Zhejiang University, advised by Pr
 
 **Address:** Zijingang Campus of Zhejiang University, 866 Yuhangtang Rd, Hangzhou 310058, P.R. China.
 
-**Contact:** fcsx1tf@163.com
+**Contact:** Xiangjun.Tang@outlook.com; fcsx1tf@163.com
 
 Publications
 ======

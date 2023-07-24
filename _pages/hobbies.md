@@ -7,5 +7,7 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
-[Novels](/novels)
+[Novels](/hobbies/novels)
 ------
+
+[Travelogues](/hobbies/travelogues)

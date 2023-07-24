@@ -24,6 +24,6 @@ Publications
 
 Projects
 =======
-    <ul>{% for post in site.projects reversed %}
+  {% for post in site.projects reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}

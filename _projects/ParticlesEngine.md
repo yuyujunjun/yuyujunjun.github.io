@@ -2,10 +2,30 @@
 title: "Physical based Particles Effects Engine"
 collection: projects
 date: 2020-01-01
+video: https://www.zhihu.com/pin/1344338220520329216
 ---
 
+We have built a mobile particle system engine based on Vulkan. 
+We have a sample [video](https://www.zhihu.com/pin/1344338220520329216) available that demonstrates the use of the flock motion and surface attraction functions of our engine.
 
-基于Vulkan搭建了一套移动端粒子系统引擎。
+### Abstract
+
+While visually stunning particle special effects and specific functions often require computationally-intensive algorithms, these can significantly impact the computing performance of mobile devices. This can affect the user's real-time experience and quickly consume battery life. Balancing computing performance, power consumption, and particle system effects of mobile devices remains a challenge.
+
+To meet this challenge, we developed a cross-platform particle special effects system that satisfies the daily interaction needs of mobile devices. We chose Vulkan as our graphics API, as it supports cross-platform and multi-threaded rendering pipelines, offering better performance.
+
+Common particle special effects often require calculating the animation of thousands of particles within a frame and supporting complex algorithms such as collision detection, which poses a significant challenge to device performance and power consumption. To achieve efficient interaction between particles and models, we innovatively introduced the Signed Distance Field (SDF) to improve performance.
+
+Designers can efficiently achieve particle attraction, repulsion, and surface movement with constant complexity by importing the SDF of the model. To meet design needs, the system supports various common effects such as collision avoidance, surface attraction, flock motion, vortex force, and wind force. It also supports simplified group motion based on the Boids model, noise movement, and particle movement to the specified location.
+
+Moreover, the system provides animation editing and playback based on keyframes. Designers can modify particle attributes arbitrarily, and the system automatically performs interpolation. This system has been commercially applied on Oppo smartphones under the umbrella of OnePlus Technology Co., Ltd.
+
+The basic graphics engine framework developed can provide a reference for the development of other mobile graphics applications.
+
+
+### Chinese Version
+
+我们基于Vulkan搭建了一套移动端粒子系统引擎。
 
 Vulkan的封装见：https://zhuanlan.zhihu.com/p/201311862
 

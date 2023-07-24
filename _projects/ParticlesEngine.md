@@ -1,5 +1,5 @@
 ---
-title: "Physical based Particles Effects Engine"
+title: "Cross-platform Particles Effects Engine"
 collection: projects
 date: 2020-01-01
 video: https://www.zhihu.com/pin/1344338220520329216

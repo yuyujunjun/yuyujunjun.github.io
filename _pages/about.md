@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am Xiangjun Tang, a Ph.D. candidate advised by Professor [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/) at CAD&CG state key lab of Zhejiang University in Hangzhou. I obtained my bachelor degress in digital media from Zhejiang University in 2019.
+I am Xiangjun Tang, a Ph.D. candidate advised by Professor [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/) at CAD&CG state key lab of Zhejiang University in Hangzhou. I obtained my bachelor degress in digital media from Zhejiang University in 2019. [CV](https://yuyujunjun.github.io/files/CV/cv.pdf)
+
 
 **Research Interest:** Character Animation, Portrait Editing, Virtual Reality,.
 
@@ -24,6 +25,6 @@ Publications
 
 Projects
 =======
-  {% for post in site.projects reversed %}
+  <ul>{% for post in site.projects reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}
+  {% endfor %}</ul>

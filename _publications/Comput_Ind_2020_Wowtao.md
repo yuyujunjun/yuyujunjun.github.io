@@ -3,6 +3,7 @@ title: "Wowtao: A Personalized Pottery-making System"
 collection: publications
 date: 2020-11-13
 venue: "Computers in Industry" 
+oriurl: https://www.sciencedirect.com/journal/computers-in-industry
 author: 'Ruifan Cai, Yingying Lin, Honglin Li, Yuzhen Zhu, **Xiangjun Tang**, Yanjun Weng, Lihua You, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/)'
 citation: 'https://yuyujunjun.github.io/files/citations/2020_Comput_Ind_Waotao.bib'
 ---

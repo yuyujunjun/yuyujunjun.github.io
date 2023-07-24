@@ -12,7 +12,7 @@ citation: "https://yuyujunjun.github.io/files/2021_ACMMM_Shape_Video.txt"
 
 **Xiangjun Tang**, Wenxin Sun, Yong-Liang Yang, and Xiaogang Jin.
 
-![teaser](https://yuyujunjun.github.io/images/ReshapingVideo/teaser.jpg)
+![teaser](https://yuyujunjun.github.io/images/ReshapingVideo/teaser.jpeg)
 
 ## Abstract:
 

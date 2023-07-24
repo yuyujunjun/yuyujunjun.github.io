@@ -6,13 +6,14 @@ venue: 'The Visual Computer'
 oriurl: https://doi.org/10.1007/s00371-021-02197-0
 pdf: 'https://yuyujunjun.github.io/files/2021_VC_SDF_GI.pdf'
 author: 'Jinkai Hu, Milo K. Yip, Guillermo Elias Alonso, Shihao Gu, **Xiangjun Tang**, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
+video: http://www.cad.zju.edu.cn/home/jin/tvc2021/demo.mp4
 citation: 'https://yuyujunjun.github.io/files/citations/2021_VC_SDFGI.txt'
 ---
 **The Visual Computer (Special Issue of CGI'2021), Springer, 2021, 37(9-11): 2539–2551.**
 
 Jinkai Hu, Milo K. Yip, Guillermo Elias Alonso, Shihao Gu, **Xiangjun Tang** & Xiaogang Jin
 
-
+![teaser](https://yuyujunjun.github.io/images/2021SDFGI/teaser.jpeg)
 
 ## Abstract:
 

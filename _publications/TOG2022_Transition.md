@@ -5,6 +5,7 @@ date: 2022-08-08
 oriurl: https://dl.acm.org/doi/abs/10.1145/3528223.3530090
 venue: "ACM Transactions on Graphics (Proc. Siggraph 2022)" 
 pdf: 'https://yuyujunjun.github.io/files/2022_TOG_Motion_Transition.pdf'
+video: http://www.cad.zju.edu.cn/home/jin/sig20232/demo.mp4
 author: '**Xiangjun Tang**, [He Wang](http://drhewang.com/), Bo Hu, Xu Gong, Ruifan Yi, Qilong Kou, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
 citation: 'https://yuyujunjun.github.io/files/citations/2022_TOG_transition.txt'
 ---
@@ -13,7 +14,7 @@ citation: 'https://yuyujunjun.github.io/files/citations/2022_TOG_transition.txt'
 
 **Xiangjun Tang**, He Wang, Bo Hu, Xu Gong, Ruifan Yi, Qilong Kou, and Xiaogang Jin.
 
-
+![teaser](https://yuyujunjun.github.io/images/2022TOG/teaser.jpg)
 
 ## Abstract:
 

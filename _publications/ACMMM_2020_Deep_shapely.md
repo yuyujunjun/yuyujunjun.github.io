@@ -5,6 +5,7 @@ date: 2020-10-12
 venue: "ACM International Conference on Multimedia" 
 pdf: "https://yuyujunjun.github.io/files/2020_ACMMM_Deep_Shaply.pdf"
 author: 'Qinjie Xiao, **Xiangjun Tang**, You Wu, Leyang Jin, [Yong-Liang Yang](https://www.yongliangyang.net/), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
+video: http://www.cad.zju.edu.cn/home/jin/mm2020/demo.mp4
 oriurl: https://dl.acm.org/doi/abs/10.1145/3394171.3413873
 videourl: https://www.youtube.com/watch?v=l43UVc1aWJ0
 citation: "https://yuyujunjun.github.io/files/citations/2020_ACMMM_Deep_Shapely.txt"
@@ -12,6 +13,7 @@ citation: "https://yuyujunjun.github.io/files/citations/2020_ACMMM_Deep_Shapely.
 ---
 Qinjie Xiao, **Xiangjun Tang**, You Wu, Leyang Jin, Yong-Liang Yang, and Xiaogang Jin.
 
+![teaser](https://yuyujunjun.github.io/images/DeepShaply/teaser.jpg)
 
 
 ## Abstract:

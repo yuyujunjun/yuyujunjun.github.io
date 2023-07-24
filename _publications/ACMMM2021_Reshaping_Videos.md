@@ -4,6 +4,7 @@ collection: publications
 date: 2021-10-20
 pdf: "https://yuyujunjun.github.io/files/2021_ACMMM_Video_Reshaping.pdf"
 oriurl: https://dl.acm.org/doi/10.1145/3474085.3475334
+video: http://www.cad.zju.edu.cn/home/jin/ACMMM2021/demo.mp4
 venue: "ACM International Conference on Multimedia (Oral)" 
 author: '**Xiangjun Tang**, Wenxin Sun, [Yong-Liang Yang](https://www.yongliangyang.net/), [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/).'
 citation: "https://yuyujunjun.github.io/files/2021_ACMMM_Shape_Video.txt"
@@ -11,7 +12,7 @@ citation: "https://yuyujunjun.github.io/files/2021_ACMMM_Shape_Video.txt"
 
 **Xiangjun Tang**, Wenxin Sun, Yong-Liang Yang, and Xiaogang Jin.
 
-
+![teaser](https://yuyujunjun.github.io/images/ReshapingVideo/teaser.jpg)
 
 ## Abstract:
 

@@ -188,6 +188,15 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  novels:
+    output: true
+    permalink: /:collection/:path/
+  hobbies:
+    output: true
+    permalink: /:collection/:path/
+  travelogues:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults

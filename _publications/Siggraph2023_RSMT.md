@@ -12,7 +12,7 @@ author: '**Xiangjun Tang**, Linjun Wu,  [He Wang](http://drhewang.com/), Bo Hu, 
 citation: 'https://yuyujunjun.github.io/files/citations/2023_siggraph_RSMT.txt'
 ---
 
-![rsmt]("https://yuyujunjun.github.io/images/RSMT/Title.png")
+![rsmt](https://yuyujunjun.github.io/images/RSMT/Title.png)
 
 
 ## Abstract:

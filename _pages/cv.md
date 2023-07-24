@@ -11,8 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in Digital Media Technology , Zhejiang University, 2019
-* Ph.D in Electronic Information, Zhejiang University, 2024 (expected)
+* Ph.D. in Electronic Information, Zhejiang University, 2024 (expected)
+* B.S. in Digital Media Technology, Zhejiang University, 2019
+
 
 Skills
 ======

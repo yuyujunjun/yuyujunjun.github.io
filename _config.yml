@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "Home"
+title                    : "Xiangjun Tang"
 title_separator          : "-"
 name                     : &name "Xiangjun Tang"
 description              : &description "personal description"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Xiangjun Tang"
-  avatar           : "link.jpg"
+  avatar           : "myself.jpg"
   bio              : "State Key Lab of CAD&CG"
   location         : "Hangzhou, Zhejiang"
   employer         :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "http://orcid.org/0000-0001-7441-0086"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

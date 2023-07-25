@@ -15,7 +15,7 @@ I am Xiangjun Tang, a Ph.D. candidate advised by Professor Xiaogang Jin at the C
 
 **Research Interest:** Character Animation, Portrait Editing, Virtual Reality,.
 
-**Address:** Zijingang Campus of Zhejiang University, 866 Yuhangtang Rd, Hangzhou 310058, P.R. China.
+**Address:** Zijingang Campus of Zhejiang University, 866 Yuhangtang Rd, Hangzhou, China.
 
 **Contact:** Xiangjun.Tang@outlook.com; fcsx1tf@163.com
 

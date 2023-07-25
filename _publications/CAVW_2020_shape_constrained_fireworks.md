@@ -1,5 +1,5 @@
 ---
-title: "Sketch‐based Shape‐Constrained Fireworks Simulation in Head‐Mounted Virtual Reality"
+title: "Sketch‐based Shape‐constrained Fireworks Simulation in Head‐mounted Virtual Reality"
 collection: publications
 date: 2020-02-27
 venue: 'Compute Animation & Virtual Worlds (Featured Cover)'

@@ -14,8 +14,6 @@ Hello, I'm Xiangjun Tang, a post-doctoral fellow at KAUST currently working with
 
 **Research Interest:** Character Animation, 3D Generation, Portrait Editing, Virtual Reality.
 
-**Address:** Zijingang Campus of Zhejiang University, 866 Yuhangtang Rd, Hangzhou, China.
-
 **Contact:** Xiangjun.Tang@outlook.com; fcsx1tf@163.com
 
 Publications

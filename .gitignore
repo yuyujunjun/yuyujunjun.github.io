@@ -1,5 +1,7 @@
 _site/
 vendor/
 .DS_Store
+.devcontainer/
+.vscode/
 
 

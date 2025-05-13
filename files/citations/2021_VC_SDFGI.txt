@@ -1,9 +1,0 @@
-@article{hu2021efficient,
-  title={Efficient real-time dynamic diffuse global illumination using signed distance fields},
-  author={Hu, Jinkai and Yip, Milo K and Alonso, Guillermo Elias and Gu, Shihao and Tang, Xiangjun and Jin, Xiaogang},
-  journal={The Visual Computer},
-  volume={37},
-  pages={2539--2551},
-  year={2021},
-  publisher={Springer}
-}

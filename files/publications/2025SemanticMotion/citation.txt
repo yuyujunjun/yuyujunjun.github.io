@@ -1,0 +1,6 @@
+@inproceedings{SemanticStyle,
+  title={Semantically Consistent Text-to-Motion with Unsupervised Styles},
+  author={Wu, Linjun and Tang, Xiangjun and Cong, Jingyuan and  Wang, He  and Hu, Bo and Gong, Xu and  Li,Songnan and Liao,Yuchen and  Wu,Yiqian and  Liu,Chen and Jin,Xiaogang },
+  year = {2025},
+  booktitle = {SIGGRAPH Asia 2025 Conference Papers},
+}

@@ -1,0 +1,8 @@
+@inproceedings{zhu20223dbrushvr,
+  title={3DBrushVR: From Virtual Reality Primitives to Complex Manifold Objects},
+  author={Zhu, Yuzhen and Tang, Xiangjun and Zhang, Jing and Pan, Ye and Shen, Jingjing and Jin, Xiaogang},
+  booktitle={2022 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)},
+  pages={423--428},
+  year={2022},
+  organization={IEEE}
+}

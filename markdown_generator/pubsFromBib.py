@@ -32,9 +32,11 @@ authors_info = {
     "Siyu Tang": "https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html",
     "Xiaogang Jin" :"http://www.cad.zju.edu.cn/home/jin",
     "Yong-Liang Yang" : "https://www.yongliangyang.net/",
-    "Xiaogang Jin" :"http://www.cad.zju.edu.cn/home/jin/",
     "Linjun Wu":"https://fivezerojun.github.io",
-    "He Wang":"https://drhewang.com/"
+    "He Wang":"https://drhewang.com/",
+    "Peter Wonka": "https://peterwonka.net/",
+    "Biao Zhang":"https://1zb.github.io/",
+    "Jianqi Chen":"https://windvchen.github.io/",
 }
 my_name = "Xiangjun Tang"
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
@@ -184,7 +186,9 @@ root_dir = "files/publications"
 publist_path = os.listdir(root_dir)
 import json
 
-for path in publist_path:
-    if ".DS_Store" in path:
-        continue
-    collect_from_folder(os.path.join(root_dir,path))
+# for path in publist_path:
+#     if ".DS_Store" in path:
+#         continue
+#     collect_from_folder(os.path.join(root_dir,path))
+path = "2025GenHuman"
+collect_from_folder(os.path.join(root_dir,path))

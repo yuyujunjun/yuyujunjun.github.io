@@ -4,12 +4,12 @@ citation: "/files/publications/2022TOG/citation.txt"
 paperurl: "/files/publications/2022TOG/main.pdf"
 video: "http://www.cad.zju.edu.cn/home/jin/SigMotion2022/demo.mp4"
 teaser: "/files/publications/2022TOG/teaser.png"
-title: "Real-time controllable motion transition for characters"
+title: "Real-time Controllable Motion Transition for Characters"
 date: "2022-01-01"
 year: "2022"
-permalink: "/publication/2022-Real-time-controllable-motion-transition-for-characters"
+permalink: "/publication/2022-Real-time-Controllable-Motion-Transition-for-Characters"
 first_author: "yes"
-author: "Xiangjun Tang, [He Wang](https://drhewang.com/), Bo Hu, Xu Gong, Ruifan Yi, Qilong Kou, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin/)."
+author: "Xiangjun Tang, [He Wang](https://drhewang.com/), Bo Hu, Xu Gong, Ruifan Yi, Qilong Kou, [Xiaogang Jin](http://www.cad.zju.edu.cn/home/jin)."
 venue: "ACM Transactions on Graphics (TOG)"
 ---
 ## Abstract:
@@ -19,7 +19,7 @@ Real-time in-between motion generation is universally required in games and high
 **bibtex:**
 ```
 @article{tang2022real,
-  title={Real-time controllable motion transition for characters},
+  title={Real-time Controllable Motion Transition for Characters},
   author={Tang, Xiangjun and Wang, He and Hu, Bo and Gong, Xu and Yi, Ruifan and Kou, Qilong and Jin, Xiaogang},
   journal={ACM Transactions on Graphics (TOG)},
   volume={41},

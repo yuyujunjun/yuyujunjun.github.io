@@ -2,7 +2,7 @@
 title: "Portrait3D: Text-Guided High-Quality 3D Portrait Generation Using Pyramid Representation and GANs Prior"
 collection: "publications"
 permalink: "/publication/Portrait3D"
-author: '**Yiqian Wu**, [Hao Xu](https://xh38.github.io/), [Xiangjun Tang](https://yuyujunjun.github.io/), [Xien Chen](https://github.com/xienchenn), [Siyu Tang](https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html), Zhebin Zhang, Chen Li, [Xiaogang Jin*](http://www.cad.zju.edu.cn/home/jin)'
+author: '[Yiqian Wu](https://onethousandwu.com), [Hao Xu](https://xh38.github.io/), Xiangjun Tang, [Xien Chen](https://github.com/xienchenn), [Siyu Tang](https://inf.ethz.ch/people/person-detail.MjYyNzgw.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html), Zhebin Zhang, Chen Li, [Xiaogang Jin*](http://www.cad.zju.edu.cn/home/jin)'
 date: "2024-03-24"
 venue: "ACM Transactions on Graphics (Proceedings of SIGGRAPH 2024)"
 paperurl: 'https://arxiv.org/abs/2404.10394'

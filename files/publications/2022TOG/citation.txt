@@ -1,5 +1,5 @@
 @article{tang2022real,
-  title={Real-time controllable motion transition for characters},
+  title={Real-time Controllable Motion Transition for Characters},
   author={Tang, Xiangjun and Wang, He and Hu, Bo and Gong, Xu and Yi, Ruifan and Kou, Qilong and Jin, Xiaogang},
   journal={ACM Transactions on Graphics (TOG)},
   volume={41},

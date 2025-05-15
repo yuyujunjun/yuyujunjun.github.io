@@ -2,13 +2,14 @@
 title: "Cross-platform Particles Effects Engine"
 collection: projects
 date: 2020-9-1
-video: https://www.zhihu.com/pin/1344338220520329216
-desc: "Developed a full-featured particle system engine optimized for real-time editing and rendering on resource-constrained platforms. The system supports artist-facing visual editing tools and efficient runtime simulation suitable for mobile deployment" 
+video: /images/particle.mp4
+teaser: /images/particle.mp4
+desc: "Designed and implemented a high-performance particle engine with full support for real-time editing and rendering on resource-constrained platforms" 
 first_author: "yes"
 ---
 
 We have built a mobile particle system engine based on Vulkan. 
-We have a sample [video](https://www.zhihu.com/pin/1344338220520329216) available that demonstrates the use of the flock motion and surface attraction functions of our engine.
+We have a sample [video](/images/particle.mp4) available that demonstrates the use of the flock motion and surface attraction functions of our engine.
 
 ### Abstract
 

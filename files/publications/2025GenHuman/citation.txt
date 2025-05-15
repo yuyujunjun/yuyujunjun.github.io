@@ -1,0 +1,6 @@
+@article{tang2025generative,
+  title={Generative Human Geometry Distribution},
+  author={Tang, Xiangjun and Zhang, Biao and Wonka, Peter},
+  journal={arXiv preprint arXiv:2503.01448},
+  year={2025}
+}

@@ -15,7 +15,7 @@ I'm Xiangjun Tang ([CV](/files/CV/cv.pdf)), a post-doctoral fellow at [KAUST](ht
 
 ## Research Journey: Human-Centered Research
 
-![Human image video](/files/experience.pdf)
+![Human image video](/files/experience.png)
 
 
 ## Publications

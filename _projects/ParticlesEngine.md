@@ -3,7 +3,7 @@ title: "Cross-platform Particles Effects Engine"
 collection: projects
 date: 2020-9-1
 video: /images/particle.mp4
-teaser: /images/particle.mp4
+teaser: /images/particle.png
 desc: "Designed and implemented a high-performance particle engine with full support for real-time editing and rendering on resource-constrained platforms" 
 first_author: "yes"
 ---

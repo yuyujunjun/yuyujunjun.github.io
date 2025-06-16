@@ -190,5 +190,5 @@ import json
 #     if ".DS_Store" in path:
 #         continue
 #     collect_from_folder(os.path.join(root_dir,path))
-path = "2025GenHuman"
+path = "2025SemanticMotion"
 collect_from_folder(os.path.join(root_dir,path))

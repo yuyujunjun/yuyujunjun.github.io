@@ -1,0 +1,10 @@
+@article{cui2020sketch,
+  title={Sketch-based shape-constrained fireworks simulation in head-mounted virtual reality},
+  author={Cui, Xiaoyu and Cai, Ruifan and Tang, Xiangjun and Deng, Zhigang and Jin, Xiaogang},
+  journal={Computer Animation and Virtual Worlds},
+  volume={31},
+  number={2},
+  pages={e1920},
+  year={2020},
+  publisher={Wiley Online Library}
+}

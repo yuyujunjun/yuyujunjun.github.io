@@ -1,0 +1,13 @@
+@inproceedings{10.1145/3588432.3591514,
+author = {Tang, Xiangjun and Wu, Linjun and Wang, He and Hu, Bo and Gong, Xu and Liao, Yuchen and Li, Songnan and Kou, Qilong and Jin, Xiaogang},
+title = {RSMT: Real-Time Stylized Motion Transition for Characters},
+year = {2023},
+publisher = {Association for Computing Machinery},
+url = {https://doi.org/10.1145/3588432.3591514},
+doi = {10.1145/3588432.3591514},
+booktitle = {ACM SIGGRAPH 2023 Conference Proceedings},
+articleno = {38},
+numpages = {10},
+location = {Los Angeles, CA, USA},
+series = {SIGGRAPH '23}
+}

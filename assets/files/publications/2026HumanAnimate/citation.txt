@@ -1,0 +1,6 @@
+@article{tang2026geo,
+  title={Human Geometry Distribution for 3D Animation Generation},
+  author={Tang, Xiangjun and Zhang, Biao and Wonka, Peter},
+  journal={},
+  year={2025}
+}

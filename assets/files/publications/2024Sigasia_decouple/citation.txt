@@ -1,0 +1,12 @@
+@inproceedings{10.1145/3680528.3687609,
+author = {Tang, Xiangjun and Wu, Linjun and Wang, He and Wu, Yiqian and Hu, Bo and Li, Songnan and Gong, Xu and Liao, Yuchen and Kou, Qilong and Jin, Xiaogang},
+title = {Decoupling Contact for Fine-Grained Motion Style Transfer},
+year = {2024},
+doi = {10.1145/3680528.3687609},
+booktitle = {SIGGRAPH Asia 2024 Conference Papers},
+articleno = {54},
+numpages = {11},
+keywords = {Style transfer, Motion quality, Editing.},
+location = {Tokyo, Japan},
+series = {SA '24}
+}

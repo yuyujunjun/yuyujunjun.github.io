@@ -7,6 +7,7 @@ navbar_title: Home
 <div class="row">
     <div class="col-lg-3 col-md-4">
         {% include widgets/profile_card_mini.html %}
+        
     </div>
     <div class="col-lg-9 col-md-8">
 
@@ -17,7 +18,11 @@ navbar_title: Home
         {% include widgets/debug_url.html %}
 
         {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
+            {% include widgets/experience_card_old.html %}
+        {% endif %}
+
+        {% if site.data.display.homepage.show_journey %}
+            {% include widgets/research_journey_card.html %}
         {% endif %}
 
         {% if site.data.display.homepage.show_news %}
@@ -33,6 +38,15 @@ navbar_title: Home
         include widgets/publication_card.html
         publications=pubs
         title='<i class="fas fa-star"></i> Selected Publications'
+        %}
+        {% endif %}
+
+        {% if site.data.display.homepage.show_selected_publications %}
+        {% assign projs = site.projects | sort: "date" | reverse %}
+        {%
+        include widgets/project_card.html
+        projects=projs
+        title='<i class="fas fa-star"></i> Projects'
         %}
         {% endif %}
     </div>

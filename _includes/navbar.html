@@ -1,10 +1,63 @@
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top mb-5 shadow-sm">
-    <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
-        <a class="navbar-brand"><strong>{{site.data.profile.navbar_name}}</strong></a>
+<style>
+    .fancy-name {
+      font-weight: bold;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #2C3E50;
+      display: inline-block;
+      text-decoration: none;     /* 去掉下划线 */
+      padding: 4px 10px;         /* 内边距，增加按钮感 */
+      border-radius: 6px;        /* 圆角 */
+      background-color: #f5f5f5; /* 默认背景浅灰 */
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08); /* 微阴影 */
+      transition: background-color 0.3s, box-shadow 0.3s, transform 0.2s;
+      cursor: pointer;           /* 显示可点击 */
+    }
+    
+    /* 鼠标悬停效果 */
+    .fancy-name:hover {
+      background-color: #e0e0e0; /* 背景加深 */
+      text-decoration: none;     /* 去掉下划线 */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.12); /* 阴影增强 */
+      transform: translateY(-1px);            /* 微微上浮 */
+    }
+    
+    /* 高亮字母颜色 */
+    .fancy-name .highlight {
+      color: #3498db;   /* 高亮颜色 */
+      display: inline-block;
+      transition: transform 0.2s, color 0.2s;
+      animation: float 3s ease-in-out infinite;
+    }
+    
+    /* 周期性微动动画 */
+    @keyframes float {
+      0%, 50%, 100% { transform: translateY(0); }
+      25% { transform: translateY(-3px); }
+      75% { transform: translateY(-2px); }
+    }
+    
+    /* 每个高亮字母延迟不同 */
+    .fancy-name .highlight:nth-child(1) { animation-delay: 0s; }
+    .fancy-name .highlight:nth-child(2) { animation-delay: 0.5s; }
+    .fancy-name .highlight:nth-child(3) { animation-delay: 0.6s; }
+    .fancy-name .highlight:nth-child(4) { animation-delay: 0.7s; }
+    .fancy-name .highlight:nth-child(5) { animation-delay: 0.8s; }
+    </style>
+    
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5 shadow-sm">
+      <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
+        
+        <!-- 点击返回主页 -->
+        <a href="{{ "/" | relative_url }}" class="fancy-name">
+          Xiang<span class="highlight">j</span>un Tang:
+          </span><span class="highlight">/Home</span>
+        </a>
+        
+   
         <button class="navbar-toggler" style="font-size: 1em; padding: 0.5em;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-map"></i> Menu
         </button>
-
+    
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 {% for item in site.data.navigation.pages %}
@@ -14,5 +67,5 @@
                 {% endfor %}
             </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>

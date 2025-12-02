@@ -1,0 +1,4 @@
+## Abstract:
+
+In this paper we present a novel shape-constrained fireworks simulation method with rich textures in an HMD (Helmet Mounted Display) virtual environment using sketched feature lines as input. Our approach first retrieves an object from a three-dimensional (3D) model database using a sketch-based 3D shape retrieval algorithm. Then, in order to approximate models with complex structures, we introduce a novel point sampling algorithm based on Gaussian curvatures, which stores not only the positions of the selected vertices but also the texture (UV) coordinates information for texture display. In addition, we introduce a multilevel explosion process so that the fireworks can dynamically form specific, visually pleasing shapes. Through our experiments, we demonstrate that our approach can produce better results than state-of-the-art approaches.
+

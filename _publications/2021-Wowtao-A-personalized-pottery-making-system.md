@@ -1,0 +1,42 @@
+---
+collection: "publications"
+citation: "/assets/files/publications/2020wowtao/citation.txt"
+cover: "/assets/files/publications/2020wowtao/teaser.jpg"
+layout: "publication"
+links:
+  Paper: /assets/files/publications/2020wowtao/main.pdf
+title: "Wowtao: A personalized pottery-making system"
+date: "2021-01-01"
+pub_date: "2021"
+permalink: "/publication/2021-Wowtao-A-personalized-pottery-making-system"
+selected: "false"
+authors:
+- Ruifan Cai
+- Yingying Lin
+- Honglin Li
+- Yuzhen Zhu
+- Xiangjun Tang
+- Yanjun Weng
+- Lihua You
+- Xiaogang Jin
+pub: "Computers in Industry"
+---
+## Abstract:
+
+We present Wowtao, an easy-to-use pottery manufacture system to take digital creativity into the real world. Our approach is able to create customized pottery virtually on mobile phones or tablet computers interactively and quickly. Our work takes integration of the customer in product personalization into consideration to support personal design in pottery manufacture field.
+
+Different from other virtual pottery design systems, our approach simulates the entire physical pottery design process, such as modeling, painting, seals, firing and customization, and provides the ability to have the designed results fabricated by real artists or a 3D printer. To make the designed results manufacturable by artists, our approach imposes some industrial constraints (both geometry and decorations) when the user designs his/her personalized potteries. Our method only requires simple and intuitive interactions, so even novices can follow the workflow to create pretty potteries easily. We optimize the design process to perform real-time operations. Our informal user study shows that a first-time user typically masters the operations within 10 minutes, and can construct interesting and satisfactory 3D pottery models within minutes.
+
+
+**bibtex:**
+```
+@article{CAI2021103325,
+title = {Wowtao: A personalized pottery-making system},
+journal = {Computers in Industry},
+volume = {124},
+pages = {103325},
+year = {2021},
+issn = {0166-3615},
+author = {Ruifan Cai and Yingying Lin and Honglin Li and Yuzhen Zhu and Xiangjun Tang and Yanjun Weng and Lihua You and Xiaogang Jin}
+}
+```

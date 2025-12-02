@@ -1,0 +1,128 @@
+---
+layout: default
+---
+
+<article class="project-page" style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px;">
+  <!-- Title -->
+  <h1 style="font-size: 2.5em; font-weight: bold; color: #2c3e50; text-align: center; margin-bottom: 20px;">{{ page.title }}</h1>
+
+  <!-- Publication Info -->
+  <p style="text-align: center; font-size: 1.2em; color: #7f8c8d;">
+    <strong>{{ page.pub }}</strong>, {{ page.pub_date }}
+  </p>
+
+  <!-- Authors -->
+  <p style="text-align: center; font-size: 1em; color: #95a5a6; margin-bottom: 30px;">
+    {% include widgets/author_list.html authors=page.authors %}
+  </p>
+
+  <!-- Cover Image -->
+  {% if page.cover %}
+    <div style="text-align: center; margin-bottom: 30px;">
+      <img src="{{ page.cover }}" alt="cover" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    </div>
+  {% endif %}
+  <!-- Links Section -->
+   <style>
+  .link-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 5px;
+    background: #f5f5f7;            /* 高级浅灰 */
+    border-radius: 8px;
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: 1px solid #e0e0e0;      /* 精致边框 */
+  }
+
+  .link-badge:hover {
+    background: #e9e9eb;           /* 悬浮微变亮 */
+    transform: translateY(-1px);   /* 小动效 */
+  }
+
+  .link-icon {
+    font-size: 14px;
+    margin-right: 6px;
+    opacity: 0.7;
+  }
+</style>
+  <div class="links-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 25px;">
+
+    {% for key in page.links %}
+      {% assign link_name = key[0] %}
+      {% assign link_url = key[1] %}
+  
+      {% case link_name %}
+        {% when "Paper" %}
+          {% assign block_color = "#1abc9c" %}
+          {% assign icon = "📄" %}
+        {% when "Code" %}
+          {% assign block_color = "#e74c3c" %}
+          {% assign icon = "💻" %}
+        {% when "Video" %}
+          {% assign block_color = "#f39c12" %}
+          {% assign icon = "🎬" %}
+        {% when "Project" %}
+          {% assign block_color = "#3498db" %}
+          {% assign icon = "📁" %}
+        {% when "Supplementary" %}
+          {% assign block_color = "#9b59b6" %}
+          {% assign icon = "🗂️" %}
+        {% else %}
+          {% assign block_color = "#7f8c8d" %}
+          {% assign icon = "🔗" %}
+      {% endcase %}
+  
+      <a href="{{ link_url }}" target="_blank" class="link-badge">
+  
+        <span>{{ icon }}</span>
+        <span>{{ link_name }}</span>
+      </a>
+  
+    {% endfor %}
+  </div>
+    <!-- Video Section -->
+      <!-- Video Section -->
+      {% assign video_url = page.links.Video %}
+
+      {% if video_url %}
+        {% assign first_char = video_url | slice: 0, 1 %}
+      
+        {% if first_char == "/" %}
+      
+          <!-- 本地视频 -->
+          <div style="text-align: center; margin: 30px 0;">
+            <video width="560" controls
+                   style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+              <source src="{{ video_url }}">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+      
+        {% else %}
+      
+          <!-- 外部链接 -->
+          <div style="text-align: center; margin: 30px 0;">
+            <iframe width="560" height="315"
+                    src="{{ video_url }}"
+                    frameborder="0"
+                    allowfullscreen
+                    style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </iframe>
+          </div>
+      
+        {% endif %}
+        {% endif %}
+
+  <!-- Abstract Section -->
+  {% if content %}
+    <p style="font-size: 1.1em; color: #2c3e50; margin-bottom: 30px;">
+      {{ content }}
+    </p>
+  {% endif %}
+
+  <!-- Citation Section -->
+</article>

@@ -1,0 +1,13 @@
+@inproceedings{10.1145/3474085.3475334,
+author = {Tang, Xiangjun and Sun, WenXin and Yang, Yong-Liang and Jin, Xiaogang},
+title = {Parametric Reshaping of Portraits in Videos},
+year = {2021},
+isbn = {9781450386517},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+booktitle = {Proceedings of the 29th ACM International Conference on Multimedia},
+pages = {4689–4697},
+numpages = {9},
+location = {Virtual Event, China},
+series = {MM '21}
+}

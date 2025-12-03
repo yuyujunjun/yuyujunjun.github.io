@@ -94,8 +94,8 @@ def process_media(folder_path, folder_name):
             # 初始化媒体数据
             media = {
                 "title": folder,
-                "url": f"/showcase/{folder_name}/{folder}/",
-                "markdown_path": os.path.join(folder_path, f"{folder}.md"),
+                "url": f"/showcase/{folder_name}/{folder}_/",
+                "markdown_path": os.path.join(folder_path, f"{folder}_.md"),
                 "photos": [],
                 "videos": [],
                 "texts": [],

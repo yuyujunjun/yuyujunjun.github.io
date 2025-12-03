@@ -1,5 +1,5 @@
 - external_videos: []
-  markdown_path: _showcase/media/yellow_mountain.md
+  markdown_path: _showcase/media/yellow_mountain_.md
   photos:
   - /showcase/media/yellow_mountain/Weixin Image_20251203162344_37_760.jpg
   - /showcase/media/yellow_mountain/Weixin Image_20251203162348_38_760.jpg
@@ -13,10 +13,10 @@
 
     霞光万道！'
   type: media
-  url: /showcase/media/yellow_mountain/
+  url: /showcase/media/yellow_mountain_/
   videos: []
 - external_videos: []
-  markdown_path: _showcase/media/Saudi.md
+  markdown_path: _showcase/media/Saudi_.md
   photos:
   - /showcase/media/Saudi/Weixin Image_20251203162139_16_760.jpg
   - /showcase/media/Saudi/Weixin Image_20251203162142_17_760.jpg
@@ -27,10 +27,10 @@
   - /showcase/media/Saudi/Weixin Image_20251203162206_22_760.jpg
   title: Saudi
   type: media
-  url: /showcase/media/Saudi/
+  url: /showcase/media/Saudi_/
   videos: []
 - external_videos: []
-  markdown_path: _showcase/media/zhoushan.md
+  markdown_path: _showcase/media/zhoushan_.md
   photos:
   - /showcase/media/zhoushan/Weixin Image_20251203162729_66_760.jpg
   - /showcase/media/zhoushan/Weixin Image_20251203162731_67_760.jpg
@@ -41,11 +41,11 @@
   - /showcase/media/zhoushan/Weixin Image_20251203162746_72_760.jpg
   title: '# 舟山'
   type: media
-  url: /showcase/media/zhoushan/
+  url: /showcase/media/zhoushan_/
   videos: []
 - external_videos:
   - //player.bilibili.com/player.html?isOutside=true&aid=114689434524385&bvid=BV1epMhz7EZh&cid=30519397505&p=1
-  markdown_path: _showcase/media/instanbul.md
+  markdown_path: _showcase/media/instanbul_.md
   photos:
   - /showcase/media/instanbul/fixed_IMG_4298.HEIC.jpg
   - /showcase/media/instanbul/fixed_IMG_4300.HEIC.jpg
@@ -68,20 +68,20 @@
   - /showcase/media/instanbul/fixed_IMG_4574.HEIC.jpg
   title: '# Instanbul'
   type: media
-  url: /showcase/media/instanbul/
+  url: /showcase/media/instanbul_/
   videos: []
 - external_videos: []
-  markdown_path: _showcase/media/suzhou.md
+  markdown_path: _showcase/media/suzhou_.md
   photos:
   - /showcase/media/suzhou/Weixin Image_20251203162412_45_760.jpg
   - /showcase/media/suzhou/Weixin Image_20251203162416_46_760.jpg
   - /showcase/media/suzhou/Weixin Image_20251203162419_47_760.jpg
   title: '# 苏州'
   type: media
-  url: /showcase/media/suzhou/
+  url: /showcase/media/suzhou_/
   videos: []
 - external_videos: []
-  markdown_path: _showcase/media/yellow_tree.md
+  markdown_path: _showcase/media/yellow_tree_.md
   photos:
   - /showcase/media/yellow_tree/fixed_IMG_8427.HEIC.jpg
   - /showcase/media/yellow_tree/fixed_IMG_8436.HEIC.jpg
@@ -101,10 +101,10 @@
   - /showcase/media/yellow_tree/fixed_IMG_8877.HEIC.jpg
   title: '# 贵州'
   type: media
-  url: /showcase/media/yellow_tree/
+  url: /showcase/media/yellow_tree_/
   videos: []
 - external_videos: []
-  markdown_path: _showcase/media/losangeles.md
+  markdown_path: _showcase/media/losangeles_.md
   photos:
   - /showcase/media/losangeles/Weixin Image_20251203162256_23_760.jpg
   - /showcase/media/losangeles/Weixin Image_20251203162258_24_760.jpg
@@ -114,10 +114,10 @@
   - /showcase/media/losangeles/Weixin Image_20251203162304_28_760.jpg
   title: '# Los Angeles'
   type: media
-  url: /showcase/media/losangeles/
+  url: /showcase/media/losangeles_/
   videos: []
 - external_videos: []
-  markdown_path: _showcase/media/fuxian_lake.md
+  markdown_path: _showcase/media/fuxian_lake_.md
   photos:
   - /showcase/media/fuxian_lake/Weixin Image_20251203162657_62_760.jpg
   - /showcase/media/fuxian_lake/Weixin Image_20251203162659_63_760.jpg
@@ -125,10 +125,10 @@
   - /showcase/media/fuxian_lake/Weixin Image_20251203162711_65_760.jpg
   title: '# 抚仙湖'
   type: media
-  url: /showcase/media/fuxian_lake/
+  url: /showcase/media/fuxian_lake_/
   videos: []
 - external_videos: []
-  markdown_path: _showcase/media/heijing.md
+  markdown_path: _showcase/media/heijing_.md
   photos:
   - /showcase/media/heijing/book.webp
   - /showcase/media/heijing/bridge.webp
@@ -157,10 +157,10 @@
   - /showcase/media/heijing/well.webp
   title: '# 黑井古镇'
   type: media
-  url: /showcase/media/heijing/
+  url: /showcase/media/heijing_/
   videos: []
 - external_videos: []
-  markdown_path: _showcase/media/gamejam.md
+  markdown_path: _showcase/media/gamejam_.md
   photos:
   - /showcase/media/gamejam/Weixin Image_20251203162537_49_760.jpg
   - /showcase/media/gamejam/Weixin Image_20251203162543_50_760.jpg
@@ -177,10 +177,10 @@
   - /showcase/media/gamejam/Weixin Image_20251203162624_61_760.jpg
   title: gamejam
   type: media
-  url: /showcase/media/gamejam/
+  url: /showcase/media/gamejam_/
   videos: []
 - external_videos: []
-  markdown_path: _showcase/media/lugulake.md
+  markdown_path: _showcase/media/lugulake_.md
   photos:
   - /showcase/media/lugulake/Weixin Image_20251203162305_29_760.jpg
   - /showcase/media/lugulake/Weixin Image_20251203162308_30_760.jpg
@@ -193,7 +193,7 @@
   - /showcase/media/lugulake/Weixin Image_20251203162448_48_760.jpg
   title: '# 泸沽湖'
   type: media
-  url: /showcase/media/lugulake/
+  url: /showcase/media/lugulake_/
   videos: []
 - entries:
   - excerpt: '### 引子

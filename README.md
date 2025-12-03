@@ -1,4 +1,22 @@
-# academic-homepage
+# Modifications
+
+This project builds on the academic homepage template created by [Shitong Luo](https://github.com/luost26/academic-homepage), with additional creative design elements inspired by [OneThousand](onethousandwu.com). On top of their foundations, I introduced several enhancements:
+
+	1.	Automatic generation of publication entries and paper homepages.
+
+	2.	A flexible Showcase system for blogs and multimedia.
+
+## Automatic generation of publication entries and paper homepages.
+      A script (`markdown_generator/pubsFromBib.py`) was added to automatically generate markdown files for publications by parsing the contents of `assets/files/publications`. It also creates a minimal paper homepage (e.g., [example](https://yuyujunjun.github.io/publication/2025-Human-Geometry-Distribution-for-3D-Animation-Generation)) using the provided abstract, teaser, and video (or video link), ensuring that even papers without dedicated websites are properly displayed.
+## A flexible Showcase system for blogs and multimedia.
+      To support the Showcase page, I implemented a tool (showcase_generator.py) that processes content stored in the _showcase folder and automatically organizes it into the Showcase page, generating the corresponding web pages for text entries, images, and videos. 
+      Specifically, it creates a unified data file, `_data/showcase_content.yml`, which the github-pages use to organize and render the Showcase layout. For folders that contain only images or videos, the script automatically generates a corresponding markdown file at the same directory level, allowing each collection of media to have its own dedicated page without manual setup.
+
+<div style="text-align: center;">
+  <img src="assets/images/example.png" alt="Showcase" width="400">
+</div>
+
+# Academic-pages
 
 ![Preview](assets/images/etc/preview.png)
 

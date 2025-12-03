@@ -2,6 +2,7 @@
 layout: album
 title: '# 黄山
 霞光万道！'
+permalink: /showcase/media/yellow_mountain_/
 photos:
   - /showcase/media/yellow_mountain/Weixin Image_20251203162344_37_760.jpg
   - /showcase/media/yellow_mountain/Weixin Image_20251203162348_38_760.jpg

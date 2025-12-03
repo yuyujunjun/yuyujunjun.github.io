@@ -1,6 +1,7 @@
 ---
 layout: album
 title: '# 贵州'
+permalink: /showcase/media/yellow_tree_/
 photos:
   - /showcase/media/yellow_tree/fixed_IMG_8427.HEIC.jpg
   - /showcase/media/yellow_tree/fixed_IMG_8436.HEIC.jpg

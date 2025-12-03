@@ -1,6 +1,7 @@
 ---
 layout: album
 title: 'Saudi'
+permalink: /showcase/media/Saudi_/
 photos:
   - /showcase/media/Saudi/Weixin Image_20251203162139_16_760.jpg
   - /showcase/media/Saudi/Weixin Image_20251203162142_17_760.jpg

@@ -1,6 +1,7 @@
 ---
 layout: album
 title: '# Instanbul'
+permalink: /showcase/media/instanbul_/
 photos:
   - /showcase/media/instanbul/fixed_IMG_4298.HEIC.jpg
   - /showcase/media/instanbul/fixed_IMG_4300.HEIC.jpg

@@ -1,6 +1,6 @@
 import os
 import yaml
-
+import copy
 # 定义输入和输出路径
 INPUT_FOLDER = "_showcase"
 OUTPUT_FILE = "_data/showcase_content.yml"
@@ -136,6 +136,8 @@ def process_media(folder_path, folder_name):
                             media["external_videos"].append(link)
 
             # 生成 Markdown 文件
+             #md_file = copy.deepcopy(media)
+            # md_file['permalink'] = media['url']
             md_content = generate_media_album_md(media)
             with open(media["markdown_path"], "w", encoding="utf-8") as f:
                 f.write(md_content)
@@ -158,6 +160,7 @@ def generate_media_album_md(media):
     md_content = f"""---
 layout: album
 title: '{media['title']}'
+permalink: {media['markdown_path'].replace('_showcase', '/showcase').replace('.md', '/')}
 photos:
 {photos_yaml if photos_yaml else '  []'}
 videos:

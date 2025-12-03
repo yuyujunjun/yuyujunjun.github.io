@@ -1,6 +1,7 @@
 ---
 layout: album
 title: '# 黑井古镇'
+permalink: /showcase/media/heijing_/
 photos:
   - /showcase/media/heijing/book.webp
   - /showcase/media/heijing/bridge.webp

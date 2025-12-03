@@ -1,6 +1,7 @@
 ---
 layout: album
 title: '# 苏州'
+permalink: /showcase/media/suzhou_/
 photos:
   - /showcase/media/suzhou/Weixin Image_20251203162412_45_760.jpg
   - /showcase/media/suzhou/Weixin Image_20251203162416_46_760.jpg

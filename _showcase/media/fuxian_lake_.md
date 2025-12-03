@@ -1,7 +1,7 @@
 ---
 layout: album
 title: '# 抚仙湖'
-permalink: /fuxian-test/
+permalink: /showcase/media/fuxian_lake_/
 photos:
   - /showcase/media/fuxian_lake/Weixin Image_20251203162657_62_760.jpg
   - /showcase/media/fuxian_lake/Weixin Image_20251203162659_63_760.jpg

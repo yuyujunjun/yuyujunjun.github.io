@@ -1,6 +1,7 @@
 ---
 layout: album
 title: '# 舟山'
+permalink: /showcase/media/zhoushan_/
 photos:
   - /showcase/media/zhoushan/Weixin Image_20251203162729_66_760.jpg
   - /showcase/media/zhoushan/Weixin Image_20251203162731_67_760.jpg

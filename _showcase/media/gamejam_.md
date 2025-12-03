@@ -1,6 +1,7 @@
 ---
 layout: album
 title: 'gamejam'
+permalink: /showcase/media/gamejam_/
 photos:
   - /showcase/media/gamejam/Weixin Image_20251203162537_49_760.jpg
   - /showcase/media/gamejam/Weixin Image_20251203162543_50_760.jpg

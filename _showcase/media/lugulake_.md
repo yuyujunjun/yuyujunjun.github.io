@@ -1,6 +1,7 @@
 ---
 layout: album
 title: '# 泸沽湖'
+permalink: /showcase/media/lugulake_/
 photos:
   - /showcase/media/lugulake/Weixin Image_20251203162305_29_760.jpg
   - /showcase/media/lugulake/Weixin Image_20251203162308_30_760.jpg

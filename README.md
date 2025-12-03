@@ -1,6 +1,6 @@
 # Modifications
 
-This project builds on the academic homepage template created by [Shitong Luo](https://github.com/luost26/academic-homepage), with additional creative design elements inspired by [OneThousand](onethousandwu.com). On top of their foundations, I introduced several enhancements:
+This project builds on the academic homepage template created by [Shitong Luo](https://github.com/luost26/academic-homepage), with additional creative design elements inspired by [OneThousand](https://onethousandwu.com). On top of their foundations, I introduced several enhancements:
 
 	1.	Automatic generation of publication entries and paper homepages.
 

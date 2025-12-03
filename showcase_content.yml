@@ -1,0 +1,112 @@
+- markdown_path: _showcase/photo/黄果树.md
+  media:
+    external_videos: []
+    photos:
+    - filename: IMG_8427.jpeg
+      url: /showcase/photo/黄果树/IMG_8427.jpeg
+    - filename: IMG_8436.jpeg
+      url: /showcase/photo/黄果树/IMG_8436.jpeg
+    - filename: IMG_8461.jpeg
+      url: /showcase/photo/黄果树/IMG_8461.jpeg
+    - filename: IMG_8467.jpeg
+      url: /showcase/photo/黄果树/IMG_8467.jpeg
+    - filename: IMG_8499.jpeg
+      url: /showcase/photo/黄果树/IMG_8499.jpeg
+    - filename: IMG_8540.jpeg
+      url: /showcase/photo/黄果树/IMG_8540.jpeg
+    - filename: IMG_8541.jpeg
+      url: /showcase/photo/黄果树/IMG_8541.jpeg
+    - filename: IMG_8544.jpeg
+      url: /showcase/photo/黄果树/IMG_8544.jpeg
+    - filename: IMG_8555.jpeg
+      url: /showcase/photo/黄果树/IMG_8555.jpeg
+    - filename: IMG_8565.JPG
+      url: /showcase/photo/黄果树/IMG_8565.JPG
+    - filename: IMG_8586.JPG
+      url: /showcase/photo/黄果树/IMG_8586.JPG
+    - filename: IMG_8591.JPG
+      url: /showcase/photo/黄果树/IMG_8591.JPG
+    - filename: IMG_8595.jpeg
+      url: /showcase/photo/黄果树/IMG_8595.jpeg
+    - filename: IMG_8608.jpg
+      url: /showcase/photo/黄果树/IMG_8608.jpg
+    - filename: IMG_8615.jpeg
+      url: /showcase/photo/黄果树/IMG_8615.jpeg
+    - filename: IMG_8634.jpeg
+      url: /showcase/photo/黄果树/IMG_8634.jpeg
+    - filename: IMG_8645.jpeg
+      url: /showcase/photo/黄果树/IMG_8645.jpeg
+    - filename: IMG_8736.jpeg
+      url: /showcase/photo/黄果树/IMG_8736.jpeg
+    - filename: IMG_8809.jpeg
+      url: /showcase/photo/黄果树/IMG_8809.jpeg
+    - filename: IMG_8877.jpeg
+      url: /showcase/photo/黄果树/IMG_8877.jpeg
+    - filename: IMG_9005.JPG
+      url: /showcase/photo/黄果树/IMG_9005.JPG
+    - filename: IMG_9013.JPG
+      url: /showcase/photo/黄果树/IMG_9013.JPG
+    texts: []
+    videos: []
+  title: 黄果树
+  type: media
+  url: /showcase/photo/黄果树/
+- markdown_path: _showcase/photo/heijing.md
+  media:
+    external_videos: []
+    photos:
+    - filename: book.webp
+      url: /showcase/photo/heijing/book.webp
+    - filename: bridge.webp
+      url: /showcase/photo/heijing/bridge.webp
+    - filename: build3.webp
+      url: /showcase/photo/heijing/build3.webp
+    - filename: building0.webp
+      url: /showcase/photo/heijing/building0.webp
+    - filename: building2.webp
+      url: /showcase/photo/heijing/building2.webp
+    - filename: cat.webp
+      url: /showcase/photo/heijing/cat.webp
+    - filename: cloud.webp
+      url: /showcase/photo/heijing/cloud.webp
+    - filename: cloud1.webp
+      url: /showcase/photo/heijing/cloud1.webp
+    - filename: dog.webp
+      url: /showcase/photo/heijing/dog.webp
+    - filename: flower.webp
+      url: /showcase/photo/heijing/flower.webp
+    - filename: goat.webp
+      url: /showcase/photo/heijing/goat.webp
+    - filename: horse1.webp
+      url: /showcase/photo/heijing/horse1.webp
+    - filename: horse2.webp
+      url: /showcase/photo/heijing/horse2.webp
+    - filename: light.webp
+      url: /showcase/photo/heijing/light.webp
+    - filename: poster.webp
+      url: /showcase/photo/heijing/poster.webp
+    - filename: stage2.webp
+      url: /showcase/photo/heijing/stage2.webp
+    - filename: stage3.webp
+      url: /showcase/photo/heijing/stage3.webp
+    - filename: stages.webp
+      url: /showcase/photo/heijing/stages.webp
+    - filename: stone.webp
+      url: /showcase/photo/heijing/stone.webp
+    - filename: street1.webp
+      url: /showcase/photo/heijing/street1.webp
+    - filename: street2.webp
+      url: /showcase/photo/heijing/street2.webp
+    - filename: street3.webp
+      url: /showcase/photo/heijing/street3.webp
+    - filename: sunshine.webp
+      url: /showcase/photo/heijing/sunshine.webp
+    - filename: train_station.webp
+      url: /showcase/photo/heijing/train_station.webp
+    - filename: well.webp
+      url: /showcase/photo/heijing/well.webp
+    texts: []
+    videos: []
+  title: heijing
+  type: media
+  url: /showcase/photo/heijing/

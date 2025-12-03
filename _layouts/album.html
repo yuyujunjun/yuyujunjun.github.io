@@ -1,0 +1,57 @@
+---
+layout: default
+container_class: container-xl
+---
+
+<div class="container">
+  <!-- <h1 class="mt-4 mb-3">{{ page.title }}</h1> -->
+  <!-- <p>{{ content }}</p> -->
+  <div class="row grid mb-4">
+    <div class="grid-sizer col-1"></div>
+        <!-- 文字展示 -->
+        {% for text in page.texts %}
+        <div class="p-2 grid-item col-md-4 col-sm-6 col-12">
+          <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body">
+            <p>{{text[1]}}</p>
+              <p class="card-text text-muted">{{ text.content | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+            <!-- 视频展示 -->
+    {% for video in page.videos %}
+    <div class="p-2 grid-item col-md-4 col-sm-6 col-12">
+      <div class="card border-0 shadow-sm bg-white">
+        <video controls class="img-fluid rounded mb-2" style="max-width: 100%; height: auto;">
+          <source src="{{ video }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    {% endfor %}
+
+    <!-- 外部链接视频展示 -->
+    {% for external_video in page.external_videos %}
+    <div class="p-2 grid-item col-md-4 col-sm-6 col-12">
+      <div class="card border-0 shadow-sm bg-white">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="{{ external_video }}" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <!-- 图片展示 -->
+    {% for photo in page.photos %}
+    <div class="p-2 grid-item col-md-4 col-sm-6 col-12">
+      <div class="card border-0 shadow-sm bg-white">
+        <img src="{{ photo }}" alt="Photo" class="img-fluid rounded mb-2" loading="lazy" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+    {% endfor %}
+
+
+
+
+  </div>
+</div>

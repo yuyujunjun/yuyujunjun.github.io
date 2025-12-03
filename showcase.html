@@ -1,32 +1,140 @@
 ---
 layout: default
-title : Showcase
+title: Showcase
 navbar_title: Showcase
 container_class: container-xl
 ---
 
-{% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
+{% assign grouped_items = site.data.showcase_content | group_by: "type" %}
 
-{% for group in cards_by_group %}
-<h1>{{ group.name }}</h1>
-<div class="row grid mb-4">
-    <div class="grid-sizer col-1"></div>
-    {% for item in group.items %}
-    {% if item.width >= 6 -%}
-        {%- assign width_sm = 12 -%}
-        {%- assign width_xs = 12 -%}
-    {%- elsif item.width >= 2 -%}
-        {%- assign width_sm = 6 -%}
-        {%- assign width_xs = 6 -%}
-    {%- else -%}
-        {%- assign width_sm = item.width | times: 2 | at_most: 12 -%}
-        {%- assign width_xs = item.width | times: 2 | at_most: 12 -%}
-    {%- endif -%}
-    <div class="p-2 grid-item col-md-{{ item.width | at_most: 12 }} col-sm-{{ width_sm }} col-{{ width_xs }}">
-        <div class="{% if item.class != null %}{{ item.class }}{% else %}card border-0 shadow-sm bg-white{% endif %}">
-            {{ item.content }}
+<div class="container">
+
+  {% for group in grouped_items %}
+    <!-- 分组标题 -->
+    <h4 class="mt-5 mb-4 text-uppercase" 
+        style="font-weight: bold; color: #4a4a4a; font-size: 1.25rem; text-align: left;">
+      {{ group.name | capitalize }}
+    </h4>
+
+    <!-- Masonry 样式布局 -->
+    <div class="row grid mb-4">
+      <div class="grid-sizer col-1"></div>
+
+      {% for item in group.items %}
+        <!-- ========================== -->
+        <!-- 1. MEDIA 类型：图片 + 标题 + View More -->
+        <!-- ========================== -->
+        {% if item.type == "media" %}
+        <div class="p-2 grid-item col-md-4 col-sm-6 col-12">
+          <div class="card border-0 shadow-sm bg-white">
+            <!-- 图片部分 -->
+            <div class="position-relative" style="width: 100%; overflow: hidden;">
+              {% for photo in item.photos limit: 1 %}
+                <img src="{{ photo }}" class="img-fluid rounded"
+                     style="width: 100%; height: auto;" loading="lazy">
+              {% endfor %}
+              <!-- 标题叠加到图片顶部 -->
+              <!-- <div class="position-absolute w-100" 
+                   style="top: 0; left: 0; background: rgba(0, 0, 0, 0.); color: #000; padding: 5px 10px; font-size: 1rem; font-weight: bold;">
+                {{ item.title }}
+              </div> -->
+              <!-- View More 按钮叠加到图片底部 -->
+              <a href="{{ item.url }}" class="btn btn-custom position-absolute"
+                 style="bottom: 10px; right: 10px; border-radius: 20px; font-size: 0.85rem; padding: 5px 10px;">
+                 {{ item.title }}
+              </a>
+            </div>
+
+            <!-- 描述部分 -->
+            <div class="card-body" style="padding: 5px 10px;">
+              <p class="card-text text-muted" style="font-size: 0.8rem; margin-bottom: 0;">
+                {{ item.description }}
+              </p>
+            </div>
+          </div>
         </div>
+        {% endif %}
+
+        <!-- ========================== -->
+        <!-- 2. 文字类（travel / novel） -->
+        <!-- ========================== -->
+        {% if item.type == "travel" or item.type == "novel" %}
+        <div class="p-2 grid-item col-md-4 col-sm-6 col-12">
+          <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body" style="padding: 5px 10px;">
+              <h6 class="card-title" style="font-weight:bold;color:#4a4a4a; font-size: 0.95rem; margin-bottom: 5px;">
+                {{ item.title }}
+              </h6>
+
+              {% assign entries = item.entries | default: item.chapters %}
+              {% if entries.size > 0 %}
+              <ul style="padding-left: 1rem; font-size: 0.8rem; margin-bottom: 0;">
+                {% assign sorted_entries = entries | sort: "title" %}
+                {% for entry in sorted_entries %}
+                <li>
+                  <a href="{{ entry.url }}" style="color:#6c757d; text-decoration:none;">
+                    {{ entry.title }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+              {% else %}
+                <p class="text-muted" style="font-size: 0.8rem;">No chapters available.</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endif %}
+
+        <!-- ========================== -->
+        <!-- 3. 其他类型（文字内容） -->
+        <!-- ========================== -->
+        {% if item.type != "media" and item.type != "travel" and item.type != "novel" %}
+        <div class="p-2 grid-item col-md-4 col-sm-6 col-12">
+          <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body" style="padding: 5px 10px;">
+              <h6 class="card-title" style="font-weight:bold;color:#4a4a4a; font-size: 0.95rem; margin-bottom: 5px;">
+                {{ item.title }}
+              </h6>
+
+              {% if item.excerpt %}
+              <p class="card-text text-muted" style="font-size: 0.8rem; margin-bottom: 0;">
+                {{ item.excerpt | markdownify }}
+              </p>
+              {% else %}
+              <p class="card-text text-muted" style="font-size: 0.8rem; margin-bottom: 0;">
+                No preview available.
+              </p>
+              {% endif %}
+
+              <a href="{{ item.url }}" class="btn btn-outline-primary btn-sm mt-2" 
+                 style="border-radius:20px;">Read More</a>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+
+      {% endfor %}
     </div>
-    {% endfor %}
+  {% endfor %}
+
 </div>
-{% endfor %}
+<style>
+  .btn-custom {
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+    color: #333; /* 深灰色文字 */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* 浅灰色边框 */
+    border-radius: 20px; /* 圆角 */
+    font-size: 0.85rem; /* 字体大小 */
+    font-weight: 500; /* 字体权重 */
+    padding: 5px 15px; /* 内边距 */
+    transition: all 0.3s ease; /* 动画过渡 */
+  }
+
+  .btn-custom:hover {
+    background-color: #007bff; /* 鼠标悬停时的背景色 */
+    color: #fff; /* 鼠标悬停时的文字颜色 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+    border-color: #007bff; /* 鼠标悬停时的边框颜色 */
+  }
+</style>

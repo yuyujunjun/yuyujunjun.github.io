@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 markdown: kramdown
 plugins:
   - jekyll-email-protect
-
+excerpt_separator: "\n\n"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -41,9 +41,7 @@ collections:
     output: true
   news:
     output: true
+  showcase_page:
+    output: true
   showcase:
-    output: true
-  travelogues:
-    output: true
-  novels:
     output: true

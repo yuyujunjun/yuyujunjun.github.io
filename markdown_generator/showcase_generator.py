@@ -51,7 +51,31 @@ def read_yaml_front_matter(file_path):
     return {}
 
 import os
+def update_yaml_front_matter(file_path, front_matter):
+    """更新 Markdown 文件的 YAML Front Matter"""
+    with open(file_path, "r", encoding="utf-8") as f:
+        content = f.read()
 
+    # 分离 YAML Front Matter 和正文
+    if content.startswith("---"):
+        parts = content.split("---", 2)
+        if len(parts) >= 3:
+            yaml_content = parts[1]
+            body_content = parts[2]
+        else:
+            yaml_content = parts[1]
+            body_content = ""
+    else:
+        yaml_content = ""
+        body_content = content
+
+    # 更新 YAML Front Matter
+    updated_yaml = yaml.dump(front_matter, allow_unicode=True, default_flow_style=False)
+    updated_content = f"---\n{updated_yaml}---\n{body_content}"
+
+    # 写回文件
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(updated_content)
 def process_novel_or_travel(folder_path, folder_name):
     """处理小说和游记类型的内容"""
     items = []
@@ -63,11 +87,15 @@ def process_novel_or_travel(folder_path, folder_name):
                 if item_file.endswith(".md"):
                     item_path = os.path.join(content_path, item_file)
                     front_matter = read_yaml_front_matter(item_path)
+                    
                     chapter_excerpt = generate_excerpt(item_path)
 
                     item_title = front_matter.get("title", os.path.splitext(item_file)[0])
                     item_url_path = os.path.splitext(item_file)[0]
                     item_url = f"/showcase/{folder_name}/{folder}/{item_url_path}/"
+                    if "permalink" not in front_matter:
+                        front_matter["permalink"] = item_url
+                        update_yaml_front_matter(item_path, front_matter)
                     folder_items.append({"title": item_title, "url": item_url, "excerpt": chapter_excerpt})
 
             # 添加数据

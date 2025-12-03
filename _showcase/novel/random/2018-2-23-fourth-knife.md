@@ -1,9 +1,12 @@
 ---
-title: 第四把刀叫爱情
-tags: [illusion]
-layout: "publication"
 date: 2018-2-23 00:10:00 +800
+layout: publication
+permalink: /showcase/novel/random/2018-2-23-fourth-knife/
+tags:
+- illusion
+title: 第四把刀叫爱情
 ---
+
 
 一个放荡不羁的年轻浪子，给自己配上刘三刀这样一个名字，往头发里稀稀拉拉插上三把飞刀，在腰上随意跨着一把直刀。他该行走在黄沙漫漫的大漠里，风从四面八方来，往东西南北去。
 

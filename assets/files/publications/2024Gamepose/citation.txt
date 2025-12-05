@@ -1,0 +1,9 @@
+@inproceedings{10.2312:pg.20241316,
+booktitle = {Pacific Graphics Conference Papers and Posters},
+title = {{GamePose: Self-Supervised 3D Human Pose Estimation from Multi-View Game Videos}},
+author = {Zhou, Yang and Guo, Tianze and Xu, Hao and Wei, Xilei and Xu, Lang and Tang, Xiangjun and Yang, Sipeng and Kou, Qilong and Jin, Xiaogang},
+year = {2024},
+publisher = {The Eurographics Association},
+ISBN = {978-3-03868-250-9},
+DOI = {10.2312/pg.20241316}
+}

@@ -94,6 +94,9 @@ def collect_authors(bibdata, bib_id, markdown_item):
 
 def collect_from_folder(file_path):
     bibfile = os.path.join(file_path, "citation.txt")
+    if os.path.exists(bibfile) is False:
+        print(f'WARNING Missing citation.txt in {file_path}, skipping...')
+        return
     with open(bibfile, 'r', encoding='utf-8') as f:
         bib_content = f.read()
     markdown_item = {"collection":"publications","citation":f"/{bibfile}"}

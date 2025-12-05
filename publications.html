@@ -21,7 +21,18 @@ body_attr: >-
         {% assign num_papers = year.items | size %}
         <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
         <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-            {% for item in year.items %}
+            <!-- 先筛选出 selected == true 的条目 -->
+            {% assign selected_items = year.items | where: "selected", true %}
+            <!-- 再筛选出其他条目 -->
+            {% assign other_items = year.items |  where: "selected", false %}
+
+            <!-- 先展示 selected == true 的条目 -->
+            {% for item in selected_items %}
+                {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
+            {% endfor %}
+
+            <!-- 再展示其他条目 -->
+            {% for item in other_items %}
                 {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
             {% endfor %}
         </div>

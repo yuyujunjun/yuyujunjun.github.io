@@ -6,6 +6,7 @@ layout: "publication"
 links:
   Project: https://fivezerojun.github.io/stylization.github.io/
   Video: https://youtu.be/ZYCjhcN-T5s
+  URL: https://dl.acm.org/doi/10.1145/3721238.3730641
 title: "Semantically Consistent Text-to-Motion with Unsupervised Styles"
 date: "2025-01-01"
 pub_date: "2025"

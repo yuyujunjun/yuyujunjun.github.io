@@ -1,0 +1,10 @@
+@article{luo2025rl,
+  title={RL-ACD: Reinforcement Learning-based Approximate Convex Decomposition},
+  author={Luo, Yuzhe and Pan, Zherong and Wu, Kui and Du, Xingyi and Zeng, Yun and Tang, Xiangjun and Wu, Yiqian and Jin, Xiaogang and Gao, Xifeng},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={44},
+  number={6},
+  pages={1--12},
+  year={2025},
+  publisher={ACM New York, NY, USA}
+}

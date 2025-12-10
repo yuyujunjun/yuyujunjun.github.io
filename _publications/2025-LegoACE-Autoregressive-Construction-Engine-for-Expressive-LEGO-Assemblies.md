@@ -4,6 +4,7 @@ citation: "/assets/files/publications/2025Lego/citation.txt"
 cover: "/assets/files/publications/2025Lego/teaser.jpg"
 layout: "publication"
 links:
+  Paper: /assets/files/publications/2025Lego/main.pdf
   Project: https://xh38.github.io/LegoACE/
   Code: https://github.com/xh38/LegoACE-code
 title: "LegoACE: Autoregressive Construction Engine for Expressive LEGO® Assemblies"

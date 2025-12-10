@@ -1,0 +1,8 @@
+@inproceedings{10.1145/3757377.3763881, 
+author = {Xu, Hao and Zhang, Yuqing and Wu, Yiqian and Zheng, Xinyang and Liu, Yutao and Tang, Xiangjun and Yang, Yunhan and Liang, Ding and Liu, Yingtian and Guo, Yuanchen and Cao, Yanpei and Jin, Xiaogang}, 
+title = {LegoACE: Autoregressive Construction Engine for Expressive LEGO® Assemblies}, 
+year = {2025}, 
+booktitle = {Proceedings of the SIGGRAPH Asia 2025 Conference Papers},
+articleno = {40},
+numpages = {11}, 
+series = {SA Conference Papers '25} }

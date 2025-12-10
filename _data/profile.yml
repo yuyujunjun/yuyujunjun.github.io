@@ -23,15 +23,14 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I'm Xiangjun Tang (<a href="/assets/files/CV/cv.pdf">CV</a>), a post-doctoral fellow at 
-    <a href="https://www.kaust.edu.sa/en/research/generative-ai" target="_blank">KAUST</a> currently working with 
+    KAUST currently working with 
     Professor <a href="https://peterwonka.net/" target="_blank">Peter Wonka</a>.
   </p>
   <p>
     In 2024, I completed my PhD in Computer Technology at the 
-    <a href="http://www.cad.zju.edu.cn" target="_blank">State Key Lab of CAD&CG of Zhejiang University</a>, under the 
+    State Key Lab of CAD&CG of Zhejiang University, under the 
     guidance of Professor <a href="http://www.cad.zju.edu.cn/home/jin" target="_blank">Xiaogang Jin</a>. Prior to that, 
-    I earned my bachelor's degree in Digital Media from 
-    <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a> in 2019.
+    I earned my bachelor's degree in Digital Media from Zhejiang University in 2019.
   </p>
   <p>
     I'm excited to continue my research and contribute to the field of computer graphics at KAUST.
@@ -57,7 +56,7 @@ experience:
 - name: KAUST
   logo: /assets/images/badges/kaust.png
   position: Post-doctoral Fellow
-  date: Sep. 2025 - present
+  date: Sep. 2024 - present
 
 # awards:
 # - name: Award Name 2

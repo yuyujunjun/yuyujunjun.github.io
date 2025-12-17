@@ -1,0 +1,6 @@
+@article{chen2025posegam,
+  title={PoseGAM: Robust Unseen Object Pose Estimation via Geometry-Aware Multi-View Reasoning},
+  author={Chen, Jianqi and Zhang, Biao and Tang, Xiangjun and Wonka, Peter},
+  journal={arXiv preprint arXiv:2512.10840},
+  year={2025}
+}

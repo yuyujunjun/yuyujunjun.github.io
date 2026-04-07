@@ -20,6 +20,7 @@ authors:
 - Qilong Kou
 - Xiaogang Jin
 pub: "ACM Transactions on Graphics (TOG)"
+pub_ab: "TOG"
 ---
 ## Abstract:
 

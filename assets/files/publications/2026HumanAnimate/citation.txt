@@ -1,6 +1,6 @@
-@article{tang2026geo,
+@inproceedings{tang2026geo,
   title={Human Geometry Distribution for 3D Animation Generation},
   author={Tang, Xiangjun and Zhang, Biao and Wonka, Peter},
-  journal={arXiv preprint arXiv:2512.07459},
-  year={2025}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026}
 }

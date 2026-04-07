@@ -26,6 +26,7 @@ authors:
 - Yanpei Cao
 - Xiaogang Jin
 pub: "Proceedings of the SIGGRAPH Asia 2025 Conference Papers"
+pub_ab: "SIGGRAPH Asia"
 ---
 ## Abstract
 

@@ -25,6 +25,7 @@ authors:
 - Chen Liu
 - Xiaogang Jin
 pub: "SIGGRAPH 2025 Conference Papers"
+pub_ab: "SIGGRAPH"
 ---
 
 

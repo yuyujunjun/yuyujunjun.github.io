@@ -39,6 +39,32 @@ authors_info = {
     "Jianqi Chen":"https://windvchen.github.io/",
 }
 my_name = "Xiangjun Tang"
+
+def get_venue_abbr(venue):
+    # Tier 1: parenthetical acronym at end, e.g. "(ICCV)" or "(ISMAR-Adjunct)"
+    match = re.search(r'\(([A-Z][A-Z0-9\-]+)\)\s*$', venue)
+    if match:
+        abbr = match.group(1)
+        return abbr.split("-")[0]  # "ISMAR-Adjunct" → "ISMAR"
+
+    # Tier 2: keyword matching for conference families (year-independent)
+    if "SIGGRAPH Asia" in venue:
+        return "SIGGRAPH Asia"
+    if "SIGGRAPH" in venue:
+        return "SIGGRAPH"
+    if "International Conference on Multimedia" in venue:
+        return "ACM MM"
+
+    # Tier 3: small fallback for venues without parseable acronyms
+    fallback = {
+        "International Conference on Learning Representations": "ICLR",
+        "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition": "CVPR",
+    }
+    for key, abbr in fallback.items():
+        if key in venue:
+            return abbr
+
+    return ""
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "inproceedings": {
@@ -113,14 +139,16 @@ def collect_from_folder(file_path):
             links["Supplementary"] = os.path.join("/",file_path,item)
             # markdown_item["supplementary_materials"] = os.path.join("/",file_path,item)
         if "extra.json" == item:
-            # extra_info = ['video','code','webpage']
             with open(os.path.join(file_path,item), 'r', encoding='utf-8') as f:
-                extra = json.load(f)   
-                for key in extra.keys():
-                    # key 首字母大写
-                    cap_key = key[0].upper() + key[1:]
-                    cap_key = cap_key.split("_")[0]
-                    links[cap_key] = extra[key]
+                extra = json.load(f)
+            highlight = extra.pop("highlight", None)
+            if highlight:
+                markdown_item['highlight'] = highlight
+            for key in extra.keys():
+                # key 首字母大写
+                cap_key = key[0].upper() + key[1:]
+                cap_key = cap_key.split("_")[0]
+                links[cap_key] = extra[key]
         if "content.md" == item:
             with open(os.path.join(file_path,item), 'r', encoding='utf-8') as f:
                 content = f.read()
@@ -192,7 +220,12 @@ def collect_from_folder(file_path):
             #add venue logic depending on citation type
             venue = b[publist[original_type]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
             markdown_item['pub'] = venue
-            
+            abbr = get_venue_abbr(venue)
+            highlight = markdown_item.get('highlight', "")
+            pub_ab = (abbr + " " + highlight).strip()
+            if pub_ab:
+                markdown_item['pub_ab'] = pub_ab
+
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
 

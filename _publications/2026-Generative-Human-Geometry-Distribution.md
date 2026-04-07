@@ -1,21 +1,23 @@
 ---
 collection: "publications"
 citation: "/assets/files/publications/2025GenHuman/citation.txt"
+highlight: "Oral"
 cover: "/assets/files/publications/2025GenHuman/teaser.png"
 layout: "publication"
 links:
   Arxiv: https://arxiv.org/abs/2503.01448
   Video: /assets/files/publications/2025GenHuman/demo.mp4
 title: "Generative Human Geometry Distribution"
-date: "2025-01-01"
-pub_date: "2025"
-permalink: "/publication/2025-Generative-Human-Geometry-Distribution"
+date: "2026-01-01"
+pub_date: "2026"
+permalink: "/publication/2026-Generative-Human-Geometry-Distribution"
 selected: "true"
 authors:
 - Xiangjun Tang
 - Biao Zhang
 - Peter Wonka
-pub: "arXiv preprint arXiv:2503.01448"
+pub: "International Conference on Learning Representations"
+pub_ab: "ICLR Oral"
 ---
 ## Abstract:
 Realistic human geometry generation is an important yet challenging task, requiring both the preservation of fine clothing details and the accurate modeling of clothing-body interactions. 
@@ -27,10 +29,12 @@ Experimental results demonstrate that our method outperforms existing state-of-t
 
 **bibtex:**
 ```
-@article{tang2025generative,
+@inproceedings{tang2025generative,
   title={Generative Human Geometry Distribution},
   author={Tang, Xiangjun and Zhang, Biao and Wonka, Peter},
-  journal={arXiv preprint arXiv:2503.01448},
-  year={2025}
+  booktitle={International Conference on Learning Representations},
+  year={2026},
+  note={Oral}
 }
+
 ```

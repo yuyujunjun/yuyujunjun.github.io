@@ -19,6 +19,7 @@ authors:
 - Yong-Liang Yang
 - Xiaogang Jin
 pub: "Proceedings of the 28th ACM International Conference on Multimedia"
+pub_ab: "ACM MM"
 ---
 ## Abstract:
 

@@ -7,15 +7,16 @@ links:
   Arxiv: https://arxiv.org/abs/2512.07459v1
   Video: /assets/files/publications/2026HumanAnimate/demo.mp4
 title: "Human Geometry Distribution for 3D Animation Generation"
-date: "2025-01-01"
-pub_date: "2025"
-permalink: "/publication/2025-Human-Geometry-Distribution-for-3D-Animation-Generation"
+date: "2026-01-01"
+pub_date: "2026"
+permalink: "/publication/2026-Human-Geometry-Distribution-for-3D-Animation-Generation"
 selected: "true"
 authors:
 - Xiangjun Tang
 - Biao Zhang
 - Peter Wonka
-pub: "arXiv preprint arXiv:2512.07459"
+pub: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+pub_ab: "CVPR"
 ---
 ## Abstract:
 Generating realistic human geometry animations remains a challenging task, as it requires modeling natural clothing dynamics with fine-grained geometric details under limited data.
@@ -24,10 +25,11 @@ We conducted experiments on both our latent space and animation model. We demons
 
 **bibtex:**
 ```
-@article{tang2026geo,
+@inproceedings{tang2026geo,
   title={Human Geometry Distribution for 3D Animation Generation},
   author={Tang, Xiangjun and Zhang, Biao and Wonka, Peter},
-  journal={arXiv preprint arXiv:2512.07459},
-  year={2025}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026}
 }
+
 ```

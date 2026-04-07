@@ -24,6 +24,7 @@ authors:
 - Qilong Kou
 - Xiaogang Jin
 pub: "SIGGRAPH Asia 2024 Conference Papers"
+pub_ab: "SIGGRAPH Asia"
 ---
 ## Abstract:
 

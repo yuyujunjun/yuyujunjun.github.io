@@ -1,6 +1,7 @@
 ---
 collection: "publications"
 citation: "/assets/files/publications/2020CAVW/citation.txt"
+highlight: "Cover Paper"
 cover: "/assets/files/publications/2020CAVW/teaser.jpg"
 layout: "publication"
 links:
@@ -17,6 +18,7 @@ authors:
 - Zhigang Deng
 - Xiaogang Jin
 pub: "Computer Animation and Virtual Worlds"
+pub_ab: "Cover Paper"
 ---
 ## Abstract:
 

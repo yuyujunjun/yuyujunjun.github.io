@@ -1,6 +1,6 @@
-@article{han2025lumix,
+@inproceedings{han2025lumix,
   title={LumiX: Structured and Coherent Text-to-Intrinsic Generation},
   author={Han, Xu and Zhang, Biao and Tang, Xiangjun and Li, Xianzhi and Wonka, Peter},
-  journal={arXiv preprint arXiv:2512.02781},
-  year={2025}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026}
 }

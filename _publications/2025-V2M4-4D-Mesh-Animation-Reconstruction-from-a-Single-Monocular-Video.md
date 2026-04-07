@@ -18,6 +18,7 @@ authors:
 - Xiangjun Tang
 - Peter Wonka
 pub: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"
+pub_ab: "ICCV"
 ---
 
 

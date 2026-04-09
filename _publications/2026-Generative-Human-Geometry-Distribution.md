@@ -1,7 +1,7 @@
 ---
 collection: "publications"
 citation: "/assets/files/publications/2025GenHuman/citation.txt"
-highlight: "Oral"
+highlight: "Oral (1.13%)"
 cover: "/assets/files/publications/2025GenHuman/teaser.png"
 layout: "publication"
 links:
@@ -17,7 +17,7 @@ authors:
 - Biao Zhang
 - Peter Wonka
 pub: "International Conference on Learning Representations"
-pub_ab: "ICLR Oral"
+pub_ab: "ICLR Oral (1.13%)"
 ---
 ## Abstract:
 Realistic human geometry generation is an important yet challenging task, requiring both the preservation of fine clothing details and the accurate modeling of clothing-body interactions. 

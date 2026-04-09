@@ -1,0 +1,6 @@
+@inproceedings{cui2026resolutiongeometrymultiviewmultipatch,
+  title={Any Resolution Any Geometry: From Multi-View To Multi-Patch},
+  author={Cui, Wenqing and Li, Zhenyu and Lavreniuk, Mykola and Shi, Jian and Idoughi, Ramzi and Tang, Xiangjun and Wonka, Peter},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2026}
+}

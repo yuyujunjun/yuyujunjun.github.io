@@ -1,6 +1,7 @@
 ---
 collection: "publications"
 citation: "/assets/files/publications/2025PoseGAM/citation.txt"
+highlight: "Oral"
 cover: "/assets/files/publications/2025PoseGAM/teaser.png"
 layout: "publication"
 links:
@@ -18,7 +19,7 @@ authors:
 - Xiangjun Tang
 - Peter Wonka
 pub: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
-pub_ab: "CVPR"
+pub_ab: "CVPR Oral"
 ---
 
 

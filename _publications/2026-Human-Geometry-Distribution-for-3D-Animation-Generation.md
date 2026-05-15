@@ -5,6 +5,7 @@ cover: "/assets/files/publications/2026HumanAnimate/teaser.png"
 layout: "publication"
 links:
   Arxiv: https://arxiv.org/abs/2512.07459v1
+  Project: http://yuyujunjun.github.io/3Dhuman_animation_distribution_page/
   Video: /assets/files/publications/2026HumanAnimate/demo.mp4
 title: "Human Geometry Distribution for 3D Animation Generation"
 date: "2026-01-01"

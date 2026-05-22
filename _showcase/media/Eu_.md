@@ -29,7 +29,7 @@ photos:
   - /showcase/media/Eu/IMG_1932.jpeg
   - /showcase/media/Eu/IMG_2020.jpeg
 videos:
-  - /showcase/media/Eu/IMG_0979.MOV
+  []
 texts:
   - filename: 'title.md'
     content: 'Paris · Lyon · Annecy · Chamonix · South of France · Rome · Dolomites'

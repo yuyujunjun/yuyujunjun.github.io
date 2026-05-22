@@ -220,8 +220,7 @@
   title: Paris · Lyon · Annecy · Chamonix · South of France · Rome · Dolomites
   type: media
   url: /showcase/media/Eu_/
-  videos:
-  - /showcase/media/Eu/IMG_0979.MOV
+  videos: []
 - external_videos: []
   markdown_path: _showcase/media/gamejam_.md
   photos:

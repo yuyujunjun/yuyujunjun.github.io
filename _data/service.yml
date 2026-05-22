@@ -1,0 +1,25 @@
+reviewer:
+  - type: Conference
+    venues:
+      - SIGGRAPH
+      - SIGGRAPH Asia
+      - CVPR
+      - ICCV
+      - ECCV
+      - ACM MM
+      - MIG
+      - SCA
+      - CVM
+      - Cyber World
+      - CADG
+  - type: Journal
+    venues:
+      - ACM TOG
+      - IEEE TVCG
+      - CGF
+      - CVMJ
+      - The Visual Computer
+      - 计算机辅助设计与图形学学报
+
+pc:
+  - EG Short Papers

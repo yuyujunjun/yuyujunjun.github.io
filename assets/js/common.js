@@ -31,12 +31,17 @@ $(function () {
         "itemSelector": ".grid-item",
         "columnWidth": ".grid-sizer"
     });
-    // layout Masonry after each image loads
+    // layout Masonry after each image loads (including native lazy-loaded images)
     $grid.imagesLoaded().progress(function () {
         $grid.masonry('layout');
     });
 
     $(".lazy").on("load", function () {
+        $grid.masonry('layout');
+    });
+
+    // Re-layout when native lazy-loaded images finish loading
+    $grid.find('img').on('load', function () {
         $grid.masonry('layout');
     });
 })

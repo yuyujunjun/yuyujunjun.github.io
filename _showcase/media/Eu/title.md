@@ -1,0 +1,1 @@
+Paris · Lyon · Annecy · Chamonix · South of France · Rome · Dolomites

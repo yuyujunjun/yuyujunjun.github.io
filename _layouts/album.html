@@ -23,7 +23,7 @@ container_class: container-xl
     {% for video in page.videos %}
     <div class="p-2 grid-item col-md-4 col-sm-6 col-12">
       <div class="card border-0 shadow-sm bg-white">
-        <video controls class="img-fluid rounded mb-2" style="max-width: 100%; height: auto;">
+        <video controls muted autoplay loop class="img-fluid rounded mb-2" style="max-width: 100%; height: auto;">
           <source src="{{ video }}" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -36,7 +36,7 @@ container_class: container-xl
     <div class="p-2 grid-item col-md-4 col-sm-6 col-12">
       <div class="card border-0 shadow-sm bg-white">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="{{ external_video }}" allowfullscreen loading="lazy"></iframe>
+          <iframe class="embed-responsive-item" src="{{ external_video }}&muted=1&autoplay=1&loop=1" allowfullscreen loading="lazy" muted></iframe>
         </div>
       </div>
     </div>

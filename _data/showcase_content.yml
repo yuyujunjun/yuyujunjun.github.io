@@ -80,6 +80,28 @@
   type: media
   url: /showcase/media/suzhou_/
   videos: []
+- external_videos:
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086310397&bvid=BV1YnGb6vEEw&cid=38523568532&p=1
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617103021578&bvid=BV1VJGb6KEh7&cid=38523568838&p=1
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086244844&bvid=BV1GnGb6vESW&cid=38523506134&p=1
+  markdown_path: _showcase/media/Rio_.md
+  photos:
+  - /showcase/media/Rio/000_cover.jpeg
+  - /showcase/media/Rio/IMG_2152.jpeg
+  - /showcase/media/Rio/IMG_2177.jpeg
+  - /showcase/media/Rio/IMG_2191.jpeg
+  - /showcase/media/Rio/IMG_2292.jpeg
+  - /showcase/media/Rio/IMG_2301.jpeg
+  - /showcase/media/Rio/IMG_2307.jpeg
+  - /showcase/media/Rio/IMG_2322.jpeg
+  - /showcase/media/Rio/IMG_2335.jpeg
+  - /showcase/media/Rio/IMG_2364.jpeg
+  - /showcase/media/Rio/IMG_2367.jpeg
+  - /showcase/media/Rio/IMG_2411.jpeg
+  title: Rio de Janeiro
+  type: media
+  url: /showcase/media/Rio_/
+  videos: []
 - external_videos: []
   markdown_path: _showcase/media/yellow_tree_.md
   photos:
@@ -159,6 +181,47 @@
   type: media
   url: /showcase/media/heijing_/
   videos: []
+- external_videos:
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086245027&bvid=BV1GnGb6vEEq&cid=38523503422&p=1
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086310043&bvid=BV1YnGb6vE5P&cid=38523503350&p=1
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086374281&bvid=BV1XnGb6vEoY&cid=38523503673&p=1
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086245005&bvid=BV1GnGb6vEEw&cid=38523440886&p=1
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086506613&bvid=BV1QnGb6YEQE&cid=38523438931&p=1
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086244171&bvid=BV1GnGb6vEkK&cid=38523437414&p=1
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086310983&bvid=BV1anGb6vEZF&cid=38523437817&p=1
+  - //player.bilibili.com/player.html?isOutside=true&aid=116617086244159&bvid=BV1GnGb6vECY&cid=38523375482&p=1
+  markdown_path: _showcase/media/Eu_.md
+  photos:
+  - /showcase/media/Eu/IMG_0933.jpeg
+  - /showcase/media/Eu/IMG_0975.jpeg
+  - /showcase/media/Eu/IMG_1041.jpeg
+  - /showcase/media/Eu/IMG_1106.jpeg
+  - /showcase/media/Eu/IMG_1243.jpeg
+  - /showcase/media/Eu/IMG_1247.jpeg
+  - /showcase/media/Eu/IMG_1260.jpeg
+  - /showcase/media/Eu/IMG_1316.jpeg
+  - /showcase/media/Eu/IMG_1318.jpeg
+  - /showcase/media/Eu/IMG_1382.jpeg
+  - /showcase/media/Eu/IMG_1427.jpeg
+  - /showcase/media/Eu/IMG_1486.jpeg
+  - /showcase/media/Eu/IMG_1491.jpeg
+  - /showcase/media/Eu/IMG_1586.jpeg
+  - /showcase/media/Eu/IMG_1628.jpeg
+  - /showcase/media/Eu/IMG_1731.jpeg
+  - /showcase/media/Eu/IMG_1773.jpeg
+  - /showcase/media/Eu/IMG_1821.jpeg
+  - /showcase/media/Eu/IMG_1898.jpeg
+  - /showcase/media/Eu/IMG_1904.jpeg
+  - /showcase/media/Eu/IMG_1909.jpeg
+  - /showcase/media/Eu/IMG_1927.jpeg
+  - /showcase/media/Eu/IMG_1928.jpeg
+  - /showcase/media/Eu/IMG_1932.jpeg
+  - /showcase/media/Eu/IMG_2020.jpeg
+  title: Paris · Lyon · Annecy · Chamonix · South of France · Rome · Dolomites
+  type: media
+  url: /showcase/media/Eu_/
+  videos:
+  - /showcase/media/Eu/IMG_0979.MOV
 - external_videos: []
   markdown_path: _showcase/media/gamejam_.md
   photos:

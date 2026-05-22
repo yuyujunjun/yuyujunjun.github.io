@@ -1,6 +1,6 @@
 ---
 layout: album
-title: 'Paris · Lyon · Annecy · Chamonix · South of France · Rome · Dolomites'
+title: 'France · Italy'
 permalink: /showcase/media/Eu_/
 photos:
   - /showcase/media/Eu/IMG_0933.jpeg
@@ -31,8 +31,10 @@ photos:
 videos:
   []
 texts:
-  - filename: 'title.md'
+  - filename: 'description.md'
     content: 'Paris · Lyon · Annecy · Chamonix · South of France · Rome · Dolomites'
+  - filename: 'title.md'
+    content: 'France · Italy'
 external_videos:
   - //player.bilibili.com/player.html?isOutside=true&aid=116617086245027&bvid=BV1GnGb6vEEq&cid=38523503422&p=1
   - //player.bilibili.com/player.html?isOutside=true&aid=116617086310043&bvid=BV1YnGb6vE5P&cid=38523503350&p=1
@@ -44,4 +46,4 @@ external_videos:
   - //player.bilibili.com/player.html?isOutside=true&aid=116617086244159&bvid=BV1GnGb6vECY&cid=38523375482&p=1
 ---
 
-这是 Paris · Lyon · Annecy · Chamonix · South of France · Rome · Dolomites 相册的描述。
+这是 France · Italy 相册的描述。

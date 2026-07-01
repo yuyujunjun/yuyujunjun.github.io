@@ -1,7 +1,6 @@
 ---
 collection: "publications"
 citation: "/assets/files/publications/2024_portrait3D_tog/citation.txt"
-highlight: "Oral"
 cover: "/assets/files/publications/2024_portrait3D_tog/teaser.png"
 layout: "publication"
 links:
@@ -25,7 +24,7 @@ authors:
 - Chen Li
 - Xiaogang Jin
 pub: "ACM Transactions on Graphics (TOG)"
-pub_ab: "TOG Oral"
+pub_ab: "TOG"
 ---
 ## Abstract:
 Existing neural rendering-based text-to-3D-portrait generation methods typically make use of human geometry prior and diffusion models to obtain guidance. However, relying solely on geometry information introduces issues such as the Janus problem, over-saturation, and over-smoothing.

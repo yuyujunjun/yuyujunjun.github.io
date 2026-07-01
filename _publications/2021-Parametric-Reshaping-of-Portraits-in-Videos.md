@@ -2,6 +2,7 @@
 collection: "publications"
 citation: "/assets/files/publications/2021ReshapingVideo/citation.txt"
 cover: "/assets/files/publications/2021ReshapingVideo/teaser.jpeg"
+highlight: "Oral"
 layout: "publication"
 links:
   Paper: /assets/files/publications/2021ReshapingVideo/main.pdf
@@ -17,7 +18,7 @@ authors:
 - Yong-Liang Yang
 - Xiaogang Jin
 pub: "Proceedings of the 29th ACM International Conference on Multimedia"
-pub_ab: "ACM MM"
+pub_ab: "ACM MM Oral"
 ---
 ## Abstract:
 

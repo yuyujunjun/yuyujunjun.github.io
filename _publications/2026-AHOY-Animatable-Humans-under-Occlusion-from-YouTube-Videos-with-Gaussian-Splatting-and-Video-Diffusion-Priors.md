@@ -1,6 +1,7 @@
 ---
 collection: "publications"
 citation: "/assets/files/publications/2026AHOY/citation.txt"
+cover: "/assets/files/publications/2026AHOY/teaser.png"
 layout: "publication"
 links:
   Arxiv: https://arxiv.org/abs/2603.17975

@@ -1,0 +1,6 @@
+@article{tang2026jovox,
+  title={JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation},
+  author={Tang, Xiangjun and Chen, Jianqi and Wonka, Peter},
+  journal={arXiv preprint},
+  year={2026}
+}

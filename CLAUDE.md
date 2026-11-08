@@ -61,3 +61,7 @@ Automatic: any paper where `Xiangjun Tang` is the **first author** is marked `se
 - `_data/navigation.yml` — nav bar
 - `_data/authors.yml` — author link mapping (legacy; script uses `authors_info` in `pubsFromBib.py`)
 - `assets/css/global.css` — custom styles
+
+## Pending
+
+- **JoVox (`2026JoVox/`, added 2026-11-08)**: teaser is a temporary crop of the paper's Figure 1 (aspect 3.7:1, too wide for the cover slot; most covers are ~1.5–3:1). Expect a replacement. Add `"Arxiv"` to `extra.json` once the arXiv upload finishes.

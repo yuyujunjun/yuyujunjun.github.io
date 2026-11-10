@@ -5,6 +5,9 @@ cover: "/assets/files/publications/2026JoVox/teaser.png"
 layout: "publication"
 links:
   Paper: /assets/files/publications/2026JoVox/main.pdf
+  Arxiv: https://arxiv.org/abs/2611.10690
+  Project: https://yuyujunjun.github.io/Jovox-page/
+  Code: https://github.com/yuyujunjun/JoVox
 title: "JoVox: Joint Hierarchical Flow Matching for Lightweight Voxel Generation"
 date: "2026-01-01"
 pub_date: "2026"
